@@ -1,3 +1,8 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+a[href^="https://vmserega.github.io/fpv-encyclopedia-public/static/yandex-download.html"]
+  .external-icon {
+  display: none;
+}
