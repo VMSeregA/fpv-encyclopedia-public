@@ -13,7 +13,7 @@ verified: файлы загружены на Timeweb и проверены пр�
 updated: 2026-06-27
 source: "локальный архив TLRSX2.zip"
 server_path: "/var/www/uav-downloads/TLRSX2"
-download_base: "http://91.220.109.152/downloads/TLRSX2/"
+download_base: "https://app.gorizontvverh.ru/downloads/TLRSX2/"
 source_sha256: "2d51c3d049ae69af2227a7c705bc0cbd940f64ef6b29b9a8ff5386b3a35ca1a0"
 ---
 
@@ -35,7 +35,7 @@ source_sha256: "2d51c3d049ae69af2227a7c705bc0cbd940f64ef6b29b9a8ff5386b3a35ca1a0
 - файлов в корне архива: 31;
 - общий размер файлов: 55.58 MB;
 - серверный каталог: `/var/www/uav-downloads/TLRSX2`;
-- базовая ссылка скачивания: [http://91.220.109.152/downloads/TLRSX2/](http://91.220.109.152/downloads/TLRSX2/);
+- базовая ссылка скачивания: [https://app.gorizontvverh.ru/downloads/TLRSX2/](https://app.gorizontvverh.ru/downloads/TLRSX2/);
 - SHA-256 исходного архива: `2d51c3d049ae69af2227a7c705bc0cbd940f64ef6b29b9a8ff5386b3a35ca1a0`.
 
 ## Разделы
