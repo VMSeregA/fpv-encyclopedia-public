@@ -167,26 +167,26 @@ def table_summary_row(table: dict[str, Any]) -> str:
     table_id = table["id"]
     link = f"{DOWNLOAD_BASE}/json/{table_id}.json"
     csv_link = f"{DOWNLOAD_BASE}/csv/{table_id}.csv"
+    files = f"[JSON]({link}) / [CSV]({csv_link})"
+    if table.get("source_image_url"):
+        files += f" / [Изображение/мануал сетки]({table['source_image_url']})"
     variant = table.get("variant") or "-"
     status = table.get("status") or "-"
     family = table.get("band_family") or "-"
-    return (
-        f"| {table.get('model', '')} | {variant} | {family} | {status} | "
-        f"[JSON]({link}) / [CSV]({csv_link}) |"
-    )
+    return f"| {table.get('model', '')} | {variant} | {family} | {status} | {files} |"
 
 
 def index_summary_row(manufacturer: str, table: dict[str, Any]) -> str:
     table_id = table["id"]
     link = f"{DOWNLOAD_BASE}/json/{table_id}.json"
     csv_link = f"{DOWNLOAD_BASE}/csv/{table_id}.csv"
+    files = f"[JSON]({link}) / [CSV]({csv_link})"
+    if table.get("source_image_url"):
+        files += f" / [Изображение/мануал сетки]({table['source_image_url']})"
     variant = table.get("variant") or "-"
     status = table.get("status") or "-"
     family = table.get("band_family") or "-"
-    return (
-        f"| {manufacturer} | {table.get('model', '')} | {variant} | {family} | {status} | "
-        f"[JSON]({link}) / [CSV]({csv_link}) |"
-    )
+    return f"| {manufacturer} | {table.get('model', '')} | {variant} | {family} | {status} | {files} |"
 
 
 def render_index(payload: dict[str, Any], tables_by_manufacturer: dict[str, list[dict[str, Any]]]) -> str:
@@ -285,6 +285,8 @@ def render_manufacturer_page(manufacturer: str, tables: list[dict[str, Any]], up
                 f"- Источник: [{table.get('source_title') or table.get('source_url')}]({table.get('source_url')})",
             ]
         )
+        if table.get("source_image_url"):
+            lines.append(f"- Изображение/мануал сетки: [открыть источник]({table['source_image_url']})")
         if powers:
             lines.append(f"- Уровни мощности: {powers}")
         for note in notes:
@@ -328,6 +330,7 @@ def write_outputs(content_dir: Path, static_dir: Path, payload: dict[str, Any]) 
                 "json": f"{DOWNLOAD_BASE}/json/{table_id}.json",
                 "csv": f"{DOWNLOAD_BASE}/csv/{table_id}.csv",
                 "source_url": table.get("source_url"),
+                "source_image_url": table.get("source_image_url"),
             }
         )
 

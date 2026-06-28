@@ -1,0 +1,102 @@
+{
+  "id": "foxeer-reaper-extreme-v3-25w-80ch",
+  "manufacturer": "Foxeer",
+  "model": "Reaper Extreme V3 2.5W",
+  "variant": "80CH / A-B-E-F-R-H-L-U-O-X",
+  "band_family": "4.9-6.0 GHz analog",
+  "kind": "vtx-table",
+  "status": "мануал / требует проверки",
+  "protocol": "IRC Tramp / Betaflight VTX table",
+  "source_title": "Foxeer Reaper Extreme V3 2.5W 80CH manual page",
+  "source_url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+  "source_image_url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+  "source_note": "Страница мануала Foxeer Reaper Extreme V3 2.5W 80CH содержит таблицу частот и процедуру unlock.",
+  "bands": [
+    {
+      "name": "BOSCAM_A",
+      "letter": "A",
+      "factory": true,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BOSCAM_B",
+      "letter": "B",
+      "factory": true,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BOSCAM_E",
+      "letter": "E",
+      "factory": true,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "FATSHARK",
+      "letter": "F",
+      "factory": true,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": true,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    },
+    {
+      "name": "BAND_H",
+      "letter": "H",
+      "factory": true,
+      "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+    },
+    {
+      "name": "BAND_L",
+      "letter": "L",
+      "factory": true,
+      "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+    },
+    {
+      "name": "BAND_U",
+      "letter": "U",
+      "factory": true,
+      "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+    },
+    {
+      "name": "BAND_O",
+      "letter": "O",
+      "factory": true,
+      "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+    },
+    {
+      "name": "BAND_X",
+      "letter": "X",
+      "factory": true,
+      "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 14,
+      "label": "25"
+    },
+    {
+      "value": 23,
+      "label": "200"
+    },
+    {
+      "value": 27,
+      "label": "500"
+    },
+    {
+      "value": 32,
+      "label": "1.5W"
+    },
+    {
+      "value": 34,
+      "label": "2.5W"
+    }
+  ],
+  "notes": [
+    "Добавлено из публичной страницы/мануала Foxeer; перед записью сверять с конкретной ревизией VTX и региональными ограничениями.",
+    "Мануал указывает unlock частот и мощности; перед использованием high power проверить охлаждение и питание."
+  ]
+}

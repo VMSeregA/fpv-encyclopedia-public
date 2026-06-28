@@ -5,6 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 
 
@@ -24,8 +25,27 @@ class VtxFrequencyCatalogTests(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)), "table ids must be unique")
 
         manufacturers = {table["manufacturer"] for table in tables}
-        for manufacturer in {"AKK", "Foxeer", "RUSHFPV", "TBS"}:
+        for manufacturer in {"AKK", "Flywoo", "Foxeer", "Matek", "RUSHFPV", "SpeedyBee", "TBS"}:
             self.assertIn(manufacturer, manufacturers)
+
+        manufacturer_counts = Counter(table["manufacturer"] for table in tables)
+        self.assertGreaterEqual(manufacturer_counts["Foxeer"], 5)
+
+        table_ids = {table["id"] for table in tables}
+        for table_id in {
+            "flywoo-goku-hm600-global",
+            "flywoo-goku-vtx625-v2-global",
+            "foxeer-reaper-extreme-3w-betaflight-64ch",
+            "foxeer-reaper-infinity-v2-5w-80ch",
+            "matek-vtx-hv-global",
+            "speedybee-tx800-usa",
+        }:
+            self.assertIn(table_id, table_ids)
+
+        self.assertTrue(
+            any(table.get("source_image_url") for table in tables),
+            "at least one table should preserve a source image/manual link",
+        )
 
     def test_generator_validates_and_writes_expected_artifacts(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -58,6 +78,8 @@ class VtxFrequencyCatalogTests(unittest.TestCase):
             self.assertIn("## Производители", index_text)
             self.assertIn("[[Производители/AKK|AKK]]", index_text)
             self.assertIn("Foxeer", index_text)
+            self.assertIn("SpeedyBee", index_text)
+            self.assertIn("Изображение/мануал сетки", index_text)
 
             manifest_payload = json.loads(manifest.read_text(encoding="utf-8"))
             self.assertGreaterEqual(manifest_payload["table_count"], 40)

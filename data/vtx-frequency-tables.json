@@ -30,6 +30,54 @@
       "title": "TBS Unify Pro 5G8 manual",
       "url": "https://www.team-blacksheep.com/media/files/tbs-unify-pro-5g8-manual.pdf",
       "note": "мануал TBS Unify 5G8 для сверки сеток TBS"
+    },
+    {
+      "id": "speedybee-tx800-product-page",
+      "title": "SpeedyBee TX800 product page",
+      "url": "https://www.speedybee.com/speedybee-tx800/",
+      "note": "официальная страница TX800 с таблицами USA/EU и ссылками на VTX table JSON"
+    },
+    {
+      "id": "matek-vtx-hv-manual-page",
+      "title": "Matek VTX-HV manual page",
+      "url": "https://www.mateksys.com/?portfolio=vtx-hv",
+      "note": "официальная страница Matek с CLI vtxtable и уровнями мощности"
+    },
+    {
+      "id": "matek-fchub-vtx-manual-page",
+      "title": "Matek FCHUB-VTX manual page",
+      "url": "https://www.mateksys.com/?portfolio=fchub-vtx",
+      "note": "официальная страница Matek с CLI vtxtable для FCHUB-VTX"
+    },
+    {
+      "id": "flywoo-goku-vtx-support",
+      "title": "Flywoo GOKU VTX support pages",
+      "url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "note": "официальные страницы Flywoo Help Center с VTX table files для HM600/HM850/VTX625"
+    },
+    {
+      "id": "foxeer-reaper-nano-v2-product-page",
+      "title": "Foxeer Reaper Nano V2 product page",
+      "url": "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583",
+      "note": "официальная страница Foxeer Reaper Nano V2 с таблицей частот и уровнями мощности"
+    },
+    {
+      "id": "foxeer-reaper-infinity-v2-product-page",
+      "title": "Foxeer Reaper Infinity V2 5W product page",
+      "url": "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588",
+      "note": "официальная страница Foxeer Reaper Infinity V2 5W с 80CH таблицей A/B/E/F/R/H/L/U/O/X"
+    },
+    {
+      "id": "foxeer-reaper-extreme-3w-product-page",
+      "title": "Foxeer Reaper Extreme 3W product page",
+      "url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+      "note": "официальная страница Foxeer Reaper Extreme 3W; для Betaflight производитель указывает удалять 2 bands из 80CH"
+    },
+    {
+      "id": "foxeer-reaper-extreme-v3-manual-page",
+      "title": "Foxeer Reaper Extreme V3 2.5W 80CH manual page",
+      "url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+      "note": "страница мануала Foxeer Reaper Extreme V3 2.5W 80CH с таблицей частот"
     }
   ],
   "tables": [
@@ -1624,6 +1672,213 @@
       ]
     },
     {
+      "id": "flywoo-goku-hm600-global",
+      "manufacturer": "Flywoo",
+      "model": "GOKU HM600 VTX",
+      "variant": "5 bands / 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "требует проверки",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Flywoo GOKU HM600 support page",
+      "source_url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "source_image_url": "https://flywoo.net/products/goku-hm600-vtx-600mw",
+      "source_note": "Официальная страница Flywoo Help Center с VTX Table file.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 28,
+          "label": "600"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями.",
+        "В официальном тексте Flywoo для B5 указано 5999 MHz; это сохранено как есть и помечено для дополнительной проверки по фото/мануалу конкретной ревизии."
+      ]
+    },
+    {
+      "id": "flywoo-goku-hm850-global",
+      "manufacturer": "Flywoo",
+      "model": "GOKU HM850 VTX",
+      "variant": "5 bands / 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "требует проверки",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Flywoo GOKU HM850 support page",
+      "source_url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "source_image_url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "source_note": "Страница Flywoo Help Center рядом с HM600 содержит VTX Table file для HM850/HM600.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 29,
+          "label": "850"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями.",
+        "Сетка совпадает с опубликованным Flywoo table block; B5 требует ручной сверки из-за значения 5999 MHz в источнике."
+      ]
+    },
+    {
+      "id": "flywoo-goku-vtx625-v2-global",
+      "manufacturer": "Flywoo",
+      "model": "GOKU VTX625 V2",
+      "variant": "5 bands / 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Flywoo GOKU VTX625 V2 support page",
+      "source_url": "https://flywoo.tawk.help/article/goku-vtx625-v2",
+      "source_image_url": "https://flywoo.tawk.help/article/goku-vtx625-v2",
+      "source_note": "Официальная страница Flywoo Help Center с VTX Table file.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "50"
+        },
+        {
+          "value": 26,
+          "label": "100"
+        },
+        {
+          "value": 30,
+          "label": "200"
+        },
+        {
+          "value": 31,
+          "label": "MAX"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями."
+      ]
+    },
+    {
       "id": "foxeer-reaper-58ghz-reference",
       "manufacturer": "Foxeer",
       "model": "Reaper / Reaper Extreme 5.8G reference grid",
@@ -1669,6 +1924,368 @@
       "powerlevels": [],
       "notes": [
         "Добавлено как Foxeer-совместимая 5.8G сетка; сверять с наклейкой/мануалом конкретной версии перед прошивкой."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-extreme-3w-betaflight-64ch",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Extreme 3W",
+      "variant": "Betaflight 64CH / A-B-E-F-R-H-O-U",
+      "band_family": "4.9-6.0 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "IRC Tramp / Betaflight VTX table",
+      "source_title": "Foxeer Reaper Extreme 3W product page",
+      "source_url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+      "source_image_url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+      "source_note": "Официальная страница Foxeer указывает 80CH VTX и примечание, что для Betaflight нужно удалить 2 bands; опубликованный файл назван A_B_E_F_R_H_O_U.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND_H",
+          "letter": "H",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "BAND_O",
+          "letter": "O",
+          "factory": true,
+          "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+        },
+        {
+          "name": "BAND_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 30,
+          "label": "1.5W"
+        },
+        {
+          "value": 35,
+          "label": "3W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичной страницы/мануала Foxeer; перед записью сверять с конкретной ревизией VTX и региональными ограничениями.",
+        "Betaflight принимает максимум 64 канала, поэтому эта запись сохранена как 8-band вариант A/B/E/F/R/H/O/U из указания производителя."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-extreme-v3-25w-80ch",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Extreme V3 2.5W",
+      "variant": "80CH / A-B-E-F-R-H-L-U-O-X",
+      "band_family": "4.9-6.0 GHz analog",
+      "kind": "vtx-table",
+      "status": "мануал / требует проверки",
+      "protocol": "IRC Tramp / Betaflight VTX table",
+      "source_title": "Foxeer Reaper Extreme V3 2.5W 80CH manual page",
+      "source_url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+      "source_image_url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+      "source_note": "Страница мануала Foxeer Reaper Extreme V3 2.5W 80CH содержит таблицу частот и процедуру unlock.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND_H",
+          "letter": "H",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "BAND_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "BAND_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        },
+        {
+          "name": "BAND_O",
+          "letter": "O",
+          "factory": true,
+          "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+        },
+        {
+          "name": "BAND_X",
+          "letter": "X",
+          "factory": true,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 32,
+          "label": "1.5W"
+        },
+        {
+          "value": 34,
+          "label": "2.5W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичной страницы/мануала Foxeer; перед записью сверять с конкретной ревизией VTX и региональными ограничениями.",
+        "Мануал указывает unlock частот и мощности; перед использованием high power проверить охлаждение и питание."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-infinity-v2-5w-80ch",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Infinity V2 5W",
+      "variant": "80CH / A-B-E-F-R-H-L-U-O-X",
+      "band_family": "4.9-6.0 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "IRC Tramp / Betaflight VTX table",
+      "source_title": "Foxeer Reaper Infinity V2 5W product page",
+      "source_url": "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588",
+      "source_image_url": "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588",
+      "source_note": "Официальная страница Foxeer Reaper Infinity V2 5W публикует 80CH таблицу A/B/E/F/R/H/L/U/O/X.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND_H",
+          "letter": "H",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "BAND_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "BAND_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        },
+        {
+          "name": "BAND_O",
+          "letter": "O",
+          "factory": true,
+          "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+        },
+        {
+          "name": "BAND_X",
+          "letter": "X",
+          "factory": true,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 30,
+          "label": "1W"
+        },
+        {
+          "value": 33,
+          "label": "2W"
+        },
+        {
+          "value": 35,
+          "label": "3W"
+        },
+        {
+          "value": 36,
+          "label": "4W"
+        },
+        {
+          "value": 37,
+          "label": "5W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичной страницы/мануала Foxeer; перед записью сверять с конкретной ревизией VTX и региональными ограничениями.",
+        "Это широкополосная 4.9-6.0G таблица; убедитесь, что VRX и региональные правила допускают выбранный диапазон."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-nano-v2-58g-5band-reference",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Nano V2 5.8G 350mW",
+      "variant": "visible 5-band table",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "IRC Tramp / Betaflight VTX table",
+      "source_title": "Foxeer Reaper Nano V2 product page",
+      "source_url": "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583",
+      "source_image_url": "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583",
+      "source_note": "Официальная страница Foxeer показывает таблицу A/B/E/F/R и уровни мощности 25/100/200/350mW.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 25,
+          "label": "350"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичной страницы/мануала Foxeer; перед записью сверять с конкретной ревизией VTX и региональными ограничениями.",
+        "Страница продукта указывает 72CH, но в видимой таблице источника сохранены A/B/E/F/R; дополнительные bands требуют сверки по файлу/мануалу конкретной ревизии."
       ]
     },
     {
@@ -2135,6 +2752,132 @@
       ],
       "notes": [
         "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "matek-fchub-vtx-global",
+      "manufacturer": "Matek",
+      "model": "Matek FCHUB-VTX",
+      "variant": "40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "Betaflight VTX table / CLI vtxtable",
+      "source_title": "Matek FCHUB-VTX manual page",
+      "source_url": "https://www.mateksys.com/?portfolio=fchub-vtx",
+      "source_image_url": "https://www.mateksys.com/?portfolio=fchub-vtx",
+      "source_note": "Официальная страница Matek публикует CLI vtxtable bands 5 и channels 8.",
+      "bands": [
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "matek-vtx-hv-global",
+      "manufacturer": "Matek",
+      "model": "Matek VTX-HV",
+      "variant": "40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "Betaflight VTX table / CLI vtxtable",
+      "source_title": "Matek VTX-HV manual page",
+      "source_url": "https://www.mateksys.com/?portfolio=vtx-hv",
+      "source_image_url": "https://www.mateksys.com/?portfolio=vtx-hv",
+      "source_note": "Официальная страница Matek публикует CLI vtxtable bands 5 и channels 8.",
+      "bands": [
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями."
       ]
     },
     {
@@ -2705,6 +3448,123 @@
       ],
       "notes": [
         "Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."
+      ]
+    },
+    {
+      "id": "speedybee-tx800-eu",
+      "manufacturer": "SpeedyBee",
+      "model": "SpeedyBee TX800",
+      "variant": "EU / CE",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "Betaflight VTX table",
+      "source_title": "SpeedyBee TX800 product page",
+      "source_url": "https://www.speedybee.com/speedybee-tx800/",
+      "source_image_url": "https://www.speedybee.com/speedybee-tx800/",
+      "source_note": "Официальная страница SpeedyBee TX800: EU/CE таблица ограничена Raceband.",
+      "bands": [
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 30,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями.",
+        "EU/CE вариант намеренно оставляет только Raceband из официальной таблицы."
+      ]
+    },
+    {
+      "id": "speedybee-tx800-usa",
+      "manufacturer": "SpeedyBee",
+      "model": "SpeedyBee TX800",
+      "variant": "USA / 48CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "официальный источник",
+      "protocol": "Betaflight VTX table",
+      "source_title": "SpeedyBee TX800 product page",
+      "source_url": "https://www.speedybee.com/speedybee-tx800/",
+      "source_image_url": "https://www.speedybee.com/speedybee-tx800/",
+      "source_note": "Официальная страница SpeedyBee TX800: таблица USA включает A/B/E/F/R/L.",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 30,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями."
       ]
     },
     {

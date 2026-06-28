@@ -1,0 +1,90 @@
+{
+  "id": "foxeer-reaper-extreme-3w-betaflight-64ch",
+  "manufacturer": "Foxeer",
+  "model": "Reaper Extreme 3W",
+  "variant": "Betaflight 64CH / A-B-E-F-R-H-O-U",
+  "band_family": "4.9-6.0 GHz analog",
+  "kind": "vtx-table",
+  "status": "официальный источник",
+  "protocol": "IRC Tramp / Betaflight VTX table",
+  "source_title": "Foxeer Reaper Extreme 3W product page",
+  "source_url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+  "source_image_url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+  "source_note": "Официальная страница Foxeer указывает 80CH VTX и примечание, что для Betaflight нужно удалить 2 bands; опубликованный файл назван A_B_E_F_R_H_O_U.",
+  "bands": [
+    {
+      "name": "BOSCAM_A",
+      "letter": "A",
+      "factory": true,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BOSCAM_B",
+      "letter": "B",
+      "factory": true,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BOSCAM_E",
+      "letter": "E",
+      "factory": true,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "FATSHARK",
+      "letter": "F",
+      "factory": true,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": true,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    },
+    {
+      "name": "BAND_H",
+      "letter": "H",
+      "factory": true,
+      "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+    },
+    {
+      "name": "BAND_O",
+      "letter": "O",
+      "factory": true,
+      "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+    },
+    {
+      "name": "BAND_U",
+      "letter": "U",
+      "factory": true,
+      "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 14,
+      "label": "25"
+    },
+    {
+      "value": 23,
+      "label": "200"
+    },
+    {
+      "value": 27,
+      "label": "500"
+    },
+    {
+      "value": 30,
+      "label": "1.5W"
+    },
+    {
+      "value": 35,
+      "label": "3W"
+    }
+  ],
+  "notes": [
+    "Добавлено из публичной страницы/мануала Foxeer; перед записью сверять с конкретной ревизией VTX и региональными ограничениями.",
+    "Betaflight принимает максимум 64 канала, поэтому эта запись сохранена как 8-band вариант A/B/E/F/R/H/O/U из указания производителя."
+  ]
+}

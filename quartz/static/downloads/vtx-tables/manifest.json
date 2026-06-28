@@ -1,6 +1,6 @@
 {
   "updated": "2026-06-28",
-  "table_count": 52,
+  "table_count": 63,
   "manufacturers": [
     "AKK",
     "BetaFPV",
@@ -9,12 +9,15 @@
     "EMAX",
     "EWRF",
     "Eachine",
+    "Flywoo",
     "Foxeer",
     "GEPRC",
     "HappyModel",
     "ImmersionRC",
+    "Matek",
     "RDQ",
     "RUSHFPV",
+    "SpeedyBee",
     "T-Motor",
     "TBS",
     "VRX/Scanner",
@@ -30,7 +33,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx2-dominator-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx2-dominator-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-dominator-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-dominator-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "akk-fx2-dominator-global",
@@ -41,7 +45,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx2-dominator-global.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx2-dominator-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-dominator-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-dominator-global.json",
+      "source_image_url": null
     },
     {
       "id": "akk-fx2-ultimate-international-global",
@@ -52,7 +57,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx2-ultimate-international-global.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx2-ultimate-international-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-international-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-international-global.json",
+      "source_image_url": null
     },
     {
       "id": "akk-fx2-ultimate-mini-international-fcc",
@@ -63,7 +69,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx2-ultimate-mini-international-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx2-ultimate-mini-international-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-mini-international-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-mini-international-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "akk-fx2-ultimate-mini-international-global",
@@ -74,7 +81,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx2-ultimate-mini-international-global.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx2-ultimate-mini-international-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-mini-international-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-mini-international-global.json",
+      "source_image_url": null
     },
     {
       "id": "akk-fx3-ultimate-fcc",
@@ -85,7 +93,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx3-ultimate-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx3-ultimate-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx3-ultimate-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx3-ultimate-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "akk-fx3-ultimate-global",
@@ -96,7 +105,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-fx3-ultimate-global.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-fx3-ultimate-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx3-ultimate-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx3-ultimate-global.json",
+      "source_image_url": null
     },
     {
       "id": "akk-race-fcc",
@@ -107,7 +117,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-race-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-race-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-race-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-race-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "akk-x2-ultimate-international-fcc",
@@ -118,7 +129,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-x2-ultimate-international-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-x2-ultimate-international-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "akk-x2-ultimate-international-global",
@@ -129,7 +141,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/akk-x2-ultimate-international-global.json",
       "csv": "/static/downloads/vtx-tables/csv/akk-x2-ultimate-international-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-global.json",
+      "source_image_url": null
     },
     {
       "id": "betafpv-m03-v1.0-global",
@@ -140,7 +153,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/betafpv-m03-v1.0-global.json",
       "csv": "/static/downloads/vtx-tables/csv/betafpv-m03-v1.0-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/betafpv/betafpv-M03-V1.0-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/betafpv/betafpv-M03-V1.0-global.json",
+      "source_image_url": null
     },
     {
       "id": "betafpv-m03-v1.1-global",
@@ -151,7 +165,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/betafpv-m03-v1.1-global.json",
       "csv": "/static/downloads/vtx-tables/csv/betafpv-m03-v1.1-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/betafpv/betafpv-M03-V1.1-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/betafpv/betafpv-M03-V1.1-global.json",
+      "source_image_url": null
     },
     {
       "id": "caddx-beetle-v2-global",
@@ -162,7 +177,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/caddx-beetle-v2-global.json",
       "csv": "/static/downloads/vtx-tables/csv/caddx-beetle-v2-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/caddx/caddx-beetle-v2-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/caddx/caddx-beetle-v2-global.json",
+      "source_image_url": null
     },
     {
       "id": "caddx-firefly-global",
@@ -173,7 +189,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/caddx-firefly-global.json",
       "csv": "/static/downloads/vtx-tables/csv/caddx-firefly-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/caddx/caddx-firefly-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/caddx/caddx-firefly-global.json",
+      "source_image_url": null
     },
     {
       "id": "common-58ghz-abefrl-reference",
@@ -184,7 +201,8 @@
       "status": "справочник",
       "json": "/static/downloads/vtx-tables/json/common-58ghz-abefrl-reference.json",
       "csv": "/static/downloads/vtx-tables/csv/common-58ghz-abefrl-reference.csv",
-      "source_url": "https://betaflight.com/docs/wiki/app/vtx-tab"
+      "source_url": "https://betaflight.com/docs/wiki/app/vtx-tab",
+      "source_image_url": null
     },
     {
       "id": "emax-mini-magnum2-vtx-global",
@@ -195,7 +213,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/emax-mini-magnum2-vtx-global.json",
       "csv": "/static/downloads/vtx-tables/csv/emax-mini-magnum2-vtx-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/emax/emax-mini-magnum2-vtx-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/emax/emax-mini-magnum2-vtx-global.json",
+      "source_image_url": null
     },
     {
       "id": "ewrf-e7082vm-v12-global",
@@ -206,7 +225,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/ewrf-e7082vm-v12-global.json",
       "csv": "/static/downloads/vtx-tables/csv/ewrf-e7082vm-v12-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/ewrf/ewrf-e7082VM-v12-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/ewrf/ewrf-e7082VM-v12-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-nano-vtx-fcc",
@@ -217,7 +237,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-nano-vtx-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-nano-vtx-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-nano-vtx-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-nano-vtx-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-nano-vtx-global",
@@ -228,7 +249,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-nano-vtx-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-nano-vtx-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-nano-vtx-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-nano-vtx-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-tx805-global",
@@ -239,7 +261,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-tx805-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-tx805-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tx805-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tx805-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-tx805s-global",
@@ -250,7 +273,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-tx805s-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-tx805s-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tx805s-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tx805s-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-trashcan-stock-vtx-global",
@@ -261,7 +285,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-trashcan-stock-vtx-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-trashcan-stock-vtx-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-trashcan-stock-vtx-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-trashcan-stock-vtx-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-tyro69-stock-vtx-global",
@@ -272,7 +297,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-tyro69-stock-vtx-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-tyro69-stock-vtx-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tyro69-stock-vtx-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tyro69-stock-vtx-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-tyro79-stock-vtx-global",
@@ -283,7 +309,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-tyro79-stock-vtx-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-tyro79-stock-vtx-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tyro79-stock-vtx-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tyro79-stock-vtx-global.json",
+      "source_image_url": null
     },
     {
       "id": "eachine-xf5804-global",
@@ -294,7 +321,44 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/eachine-xf5804-global.json",
       "csv": "/static/downloads/vtx-tables/csv/eachine-xf5804-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-xf5804-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-xf5804-global.json",
+      "source_image_url": null
+    },
+    {
+      "id": "flywoo-goku-hm600-global",
+      "manufacturer": "Flywoo",
+      "model": "GOKU HM600 VTX",
+      "variant": "5 bands / 40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "требует проверки",
+      "json": "/static/downloads/vtx-tables/json/flywoo-goku-hm600-global.json",
+      "csv": "/static/downloads/vtx-tables/csv/flywoo-goku-hm600-global.csv",
+      "source_url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "source_image_url": "https://flywoo.net/products/goku-hm600-vtx-600mw"
+    },
+    {
+      "id": "flywoo-goku-hm850-global",
+      "manufacturer": "Flywoo",
+      "model": "GOKU HM850 VTX",
+      "variant": "5 bands / 40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "требует проверки",
+      "json": "/static/downloads/vtx-tables/json/flywoo-goku-hm850-global.json",
+      "csv": "/static/downloads/vtx-tables/csv/flywoo-goku-hm850-global.csv",
+      "source_url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "source_image_url": "https://flywoo.tawk.help/article/goku-hm600-vtx"
+    },
+    {
+      "id": "flywoo-goku-vtx625-v2-global",
+      "manufacturer": "Flywoo",
+      "model": "GOKU VTX625 V2",
+      "variant": "5 bands / 40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/flywoo-goku-vtx625-v2-global.json",
+      "csv": "/static/downloads/vtx-tables/csv/flywoo-goku-vtx625-v2-global.csv",
+      "source_url": "https://flywoo.tawk.help/article/goku-vtx625-v2",
+      "source_image_url": "https://flywoo.tawk.help/article/goku-vtx625-v2"
     },
     {
       "id": "foxeer-reaper-58ghz-reference",
@@ -305,7 +369,56 @@
       "status": "требует проверки",
       "json": "/static/downloads/vtx-tables/json/foxeer-reaper-58ghz-reference.json",
       "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-58ghz-reference.csv",
-      "source_url": "https://manuals.plus/foxeer/vtx-reaper-extreme-manual"
+      "source_url": "https://manuals.plus/foxeer/vtx-reaper-extreme-manual",
+      "source_image_url": null
+    },
+    {
+      "id": "foxeer-reaper-extreme-3w-betaflight-64ch",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Extreme 3W",
+      "variant": "Betaflight 64CH / A-B-E-F-R-H-O-U",
+      "band_family": "4.9-6.0 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-extreme-3w-betaflight-64ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-3w-betaflight-64ch.csv",
+      "source_url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+      "source_image_url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576"
+    },
+    {
+      "id": "foxeer-reaper-extreme-v3-25w-80ch",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Extreme V3 2.5W",
+      "variant": "80CH / A-B-E-F-R-H-L-U-O-X",
+      "band_family": "4.9-6.0 GHz analog",
+      "status": "мануал / требует проверки",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-extreme-v3-25w-80ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-v3-25w-80ch.csv",
+      "source_url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+      "source_image_url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table"
+    },
+    {
+      "id": "foxeer-reaper-infinity-v2-5w-80ch",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Infinity V2 5W",
+      "variant": "80CH / A-B-E-F-R-H-L-U-O-X",
+      "band_family": "4.9-6.0 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-infinity-v2-5w-80ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-infinity-v2-5w-80ch.csv",
+      "source_url": "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588",
+      "source_image_url": "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588"
+    },
+    {
+      "id": "foxeer-reaper-nano-v2-58g-5band-reference",
+      "manufacturer": "Foxeer",
+      "model": "Reaper Nano V2 5.8G 350mW",
+      "variant": "visible 5-band table",
+      "band_family": "5.8 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-nano-v2-58g-5band-reference.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-nano-v2-58g-5band-reference.csv",
+      "source_url": "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583",
+      "source_image_url": "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583"
     },
     {
       "id": "geprc-f411-stable-global",
@@ -316,7 +429,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/geprc-f411-stable-global.json",
       "csv": "/static/downloads/vtx-tables/csv/geprc-f411-stable-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/geprc/geprc-f411-stable-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/geprc/geprc-f411-stable-global.json",
+      "source_image_url": null
     },
     {
       "id": "happymodel-mobula7-stock-vtx-global",
@@ -327,7 +441,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/happymodel-mobula7-stock-vtx-global.json",
       "csv": "/static/downloads/vtx-tables/csv/happymodel-mobula7-stock-vtx-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/happymodel/happymodel-mobula7-stock-vtx-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/happymodel/happymodel-mobula7-stock-vtx-global.json",
+      "source_image_url": null
     },
     {
       "id": "irc-tramp-hv-global",
@@ -338,7 +453,32 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/irc-tramp-hv-global.json",
       "csv": "/static/downloads/vtx-tables/csv/irc-tramp-hv-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/immersionrc/irc-tramp-hv-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/immersionrc/irc-tramp-hv-global.json",
+      "source_image_url": null
+    },
+    {
+      "id": "matek-fchub-vtx-global",
+      "manufacturer": "Matek",
+      "model": "Matek FCHUB-VTX",
+      "variant": "40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/matek-fchub-vtx-global.json",
+      "csv": "/static/downloads/vtx-tables/csv/matek-fchub-vtx-global.csv",
+      "source_url": "https://www.mateksys.com/?portfolio=fchub-vtx",
+      "source_image_url": "https://www.mateksys.com/?portfolio=fchub-vtx"
+    },
+    {
+      "id": "matek-vtx-hv-global",
+      "manufacturer": "Matek",
+      "model": "Matek VTX-HV",
+      "variant": "40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/matek-vtx-hv-global.json",
+      "csv": "/static/downloads/vtx-tables/csv/matek-vtx-hv-global.csv",
+      "source_url": "https://www.mateksys.com/?portfolio=vtx-hv",
+      "source_image_url": "https://www.mateksys.com/?portfolio=vtx-hv"
     },
     {
       "id": "rdq-mach3-global",
@@ -349,7 +489,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rdq-mach3-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rdq-mach3-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rdq/rdq-mach3-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rdq/rdq-mach3-global.json",
+      "source_image_url": null
     },
     {
       "id": "rush-max-solo-global",
@@ -360,7 +501,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-max-solo-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-max-solo-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-max-solo-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-max-solo-global.json",
+      "source_image_url": null
     },
     {
       "id": "rush-tank-mini-global",
@@ -371,7 +513,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-tank-mini-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-tank-mini-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-mini-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-mini-global.json",
+      "source_image_url": null
     },
     {
       "id": "rush-tank-race-global",
@@ -382,7 +525,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-tank-race-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-tank-race-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-race-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-race-global.json",
+      "source_image_url": null
     },
     {
       "id": "rush-tank-tiny-global",
@@ -393,7 +537,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-tank-tiny-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-tank-tiny-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-tiny-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-tiny-global.json",
+      "source_image_url": null
     },
     {
       "id": "rush-tank-ultimate-global",
@@ -404,7 +549,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-tank-ultimate-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-tank-ultimate-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-ultimate-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-ultimate-global.json",
+      "source_image_url": null
     },
     {
       "id": "rush-tank-ultimate-plus-global",
@@ -415,7 +561,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-tank-ultimate-plus-global.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-tank-ultimate-plus-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-ultimate-plus-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-ultimate-plus-global.json",
+      "source_image_url": null
     },
     {
       "id": "rushfpv-xspan-31-38ghz-range",
@@ -426,7 +573,8 @@
       "status": "диапазон",
       "json": "/static/downloads/vtx-tables/json/rushfpv-xspan-31-38ghz-range.json",
       "csv": "/static/downloads/vtx-tables/csv/rushfpv-xspan-31-38ghz-range.csv",
-      "source_url": "https://rushfpv.net/pages/download-center"
+      "source_url": "https://rushfpv.net/pages/download-center",
+      "source_image_url": null
     },
     {
       "id": "rushfpv-xspan-48-61ghz-range",
@@ -437,7 +585,8 @@
       "status": "диапазон",
       "json": "/static/downloads/vtx-tables/json/rushfpv-xspan-48-61ghz-range.json",
       "csv": "/static/downloads/vtx-tables/csv/rushfpv-xspan-48-61ghz-range.csv",
-      "source_url": "https://rushfpv.net/pages/download-center"
+      "source_url": "https://rushfpv.net/pages/download-center",
+      "source_image_url": null
     },
     {
       "id": "rushfpv-xspan-61-72ghz-range",
@@ -448,7 +597,32 @@
       "status": "диапазон",
       "json": "/static/downloads/vtx-tables/json/rushfpv-xspan-61-72ghz-range.json",
       "csv": "/static/downloads/vtx-tables/csv/rushfpv-xspan-61-72ghz-range.csv",
-      "source_url": "https://rushfpv.net/pages/download-center"
+      "source_url": "https://rushfpv.net/pages/download-center",
+      "source_image_url": null
+    },
+    {
+      "id": "speedybee-tx800-eu",
+      "manufacturer": "SpeedyBee",
+      "model": "SpeedyBee TX800",
+      "variant": "EU / CE",
+      "band_family": "5.8 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/speedybee-tx800-eu.json",
+      "csv": "/static/downloads/vtx-tables/csv/speedybee-tx800-eu.csv",
+      "source_url": "https://www.speedybee.com/speedybee-tx800/",
+      "source_image_url": "https://www.speedybee.com/speedybee-tx800/"
+    },
+    {
+      "id": "speedybee-tx800-usa",
+      "manufacturer": "SpeedyBee",
+      "model": "SpeedyBee TX800",
+      "variant": "USA / 48CH",
+      "band_family": "5.8 GHz analog",
+      "status": "официальный источник",
+      "json": "/static/downloads/vtx-tables/json/speedybee-tx800-usa.json",
+      "csv": "/static/downloads/vtx-tables/csv/speedybee-tx800-usa.csv",
+      "source_url": "https://www.speedybee.com/speedybee-tx800/",
+      "source_image_url": "https://www.speedybee.com/speedybee-tx800/"
     },
     {
       "id": "t-motor-ft200-eu",
@@ -459,7 +633,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/t-motor-ft200-eu.json",
       "csv": "/static/downloads/vtx-tables/csv/t-motor-ft200-eu.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-eu.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-eu.json",
+      "source_image_url": null
     },
     {
       "id": "t-motor-ft200-fcc",
@@ -470,7 +645,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/t-motor-ft200-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/t-motor-ft200-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-fcc.json",
+      "source_image_url": null
     },
     {
       "id": "t-motor-ft200-global",
@@ -481,7 +657,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/t-motor-ft200-global.json",
       "csv": "/static/downloads/vtx-tables/csv/t-motor-ft200-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-global.json",
+      "source_image_url": null
     },
     {
       "id": "tbs-unify-evo-global",
@@ -492,7 +669,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/tbs-unify-evo-global.json",
       "csv": "/static/downloads/vtx-tables/csv/tbs-unify-evo-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-evo-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-evo-global.json",
+      "source_image_url": null
     },
     {
       "id": "tbs-unify-pro-5g8-hv-race2-global",
@@ -503,7 +681,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/tbs-unify-pro-5g8-hv-race2-global.json",
       "csv": "/static/downloads/vtx-tables/csv/tbs-unify-pro-5g8-hv-race2-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro-5g8-hv-race2-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro-5g8-hv-race2-global.json",
+      "source_image_url": null
     },
     {
       "id": "tbs-unify-pro32-hv-global",
@@ -514,7 +693,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/tbs-unify-pro32-hv-global.json",
       "csv": "/static/downloads/vtx-tables/csv/tbs-unify-pro32-hv-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-hv-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-hv-global.json",
+      "source_image_url": null
     },
     {
       "id": "tbs-unify-pro32-nano-5g8-eu",
@@ -525,7 +705,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/tbs-unify-pro32-nano-5g8-eu.json",
       "csv": "/static/downloads/vtx-tables/csv/tbs-unify-pro32-nano-5g8-eu.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-nano-5g8-eu.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-nano-5g8-eu.json",
+      "source_image_url": null
     },
     {
       "id": "tbs-unify-pro32-nano-5g8-global",
@@ -536,7 +717,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/tbs-unify-pro32-nano-5g8-global.json",
       "csv": "/static/downloads/vtx-tables/csv/tbs-unify-pro32-nano-5g8-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-nano-5g8-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-nano-5g8-global.json",
+      "source_image_url": null
     },
     {
       "id": "vrx-sk1200-12-13ghz-field-grid",
@@ -547,7 +729,8 @@
       "status": "полевой опыт",
       "json": "/static/downloads/vtx-tables/json/vrx-sk1200-12-13ghz-field-grid.json",
       "csv": "/static/downloads/vtx-tables/csv/vrx-sk1200-12-13ghz-field-grid.csv",
-      "source_url": "https://github.com/VMSeregA/fpv-encyclopedia-public"
+      "source_url": "https://github.com/VMSeregA/fpv-encyclopedia-public",
+      "source_image_url": null
     },
     {
       "id": "iflight-mini-global",
@@ -558,7 +741,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/iflight-mini-global.json",
       "csv": "/static/downloads/vtx-tables/csv/iflight-mini-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-mini-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-mini-global.json",
+      "source_image_url": null
     },
     {
       "id": "iflight-pro-global",
@@ -569,7 +753,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/iflight-pro-global.json",
       "csv": "/static/downloads/vtx-tables/csv/iflight-pro-global.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-pro-global.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-pro-global.json",
+      "source_image_url": null
     },
     {
       "id": "iflight-succex-force-eu",
@@ -580,7 +765,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/iflight-succex-force-eu.json",
       "csv": "/static/downloads/vtx-tables/csv/iflight-succex-force-eu.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-succex-force-eu.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-succex-force-eu.json",
+      "source_image_url": null
     },
     {
       "id": "iflight-succex-force-fcc",
@@ -591,7 +777,8 @@
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/iflight-succex-force-fcc.json",
       "csv": "/static/downloads/vtx-tables/csv/iflight-succex-force-fcc.csv",
-      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-succex-force-fcc.json"
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-succex-force-fcc.json",
+      "source_image_url": null
     }
   ],
   "sources": [
@@ -624,6 +811,54 @@
       "title": "TBS Unify Pro 5G8 manual",
       "url": "https://www.team-blacksheep.com/media/files/tbs-unify-pro-5g8-manual.pdf",
       "note": "мануал TBS Unify 5G8 для сверки сеток TBS"
+    },
+    {
+      "id": "speedybee-tx800-product-page",
+      "title": "SpeedyBee TX800 product page",
+      "url": "https://www.speedybee.com/speedybee-tx800/",
+      "note": "официальная страница TX800 с таблицами USA/EU и ссылками на VTX table JSON"
+    },
+    {
+      "id": "matek-vtx-hv-manual-page",
+      "title": "Matek VTX-HV manual page",
+      "url": "https://www.mateksys.com/?portfolio=vtx-hv",
+      "note": "официальная страница Matek с CLI vtxtable и уровнями мощности"
+    },
+    {
+      "id": "matek-fchub-vtx-manual-page",
+      "title": "Matek FCHUB-VTX manual page",
+      "url": "https://www.mateksys.com/?portfolio=fchub-vtx",
+      "note": "официальная страница Matek с CLI vtxtable для FCHUB-VTX"
+    },
+    {
+      "id": "flywoo-goku-vtx-support",
+      "title": "Flywoo GOKU VTX support pages",
+      "url": "https://flywoo.tawk.help/article/goku-hm600-vtx",
+      "note": "официальные страницы Flywoo Help Center с VTX table files для HM600/HM850/VTX625"
+    },
+    {
+      "id": "foxeer-reaper-nano-v2-product-page",
+      "title": "Foxeer Reaper Nano V2 product page",
+      "url": "https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583",
+      "note": "официальная страница Foxeer Reaper Nano V2 с таблицей частот и уровнями мощности"
+    },
+    {
+      "id": "foxeer-reaper-infinity-v2-product-page",
+      "title": "Foxeer Reaper Infinity V2 5W product page",
+      "url": "https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588",
+      "note": "официальная страница Foxeer Reaper Infinity V2 5W с 80CH таблицей A/B/E/F/R/H/L/U/O/X"
+    },
+    {
+      "id": "foxeer-reaper-extreme-3w-product-page",
+      "title": "Foxeer Reaper Extreme 3W product page",
+      "url": "https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576",
+      "note": "официальная страница Foxeer Reaper Extreme 3W; для Betaflight производитель указывает удалять 2 bands из 80CH"
+    },
+    {
+      "id": "foxeer-reaper-extreme-v3-manual-page",
+      "title": "Foxeer Reaper Extreme V3 2.5W 80CH manual page",
+      "url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
+      "note": "страница мануала Foxeer Reaper Extreme V3 2.5W 80CH с таблицей частот"
     }
   ]
 }

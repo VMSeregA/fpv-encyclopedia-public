@@ -1,0 +1,44 @@
+{
+  "id": "speedybee-tx800-eu",
+  "manufacturer": "SpeedyBee",
+  "model": "SpeedyBee TX800",
+  "variant": "EU / CE",
+  "band_family": "5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "официальный источник",
+  "protocol": "Betaflight VTX table",
+  "source_title": "SpeedyBee TX800 product page",
+  "source_url": "https://www.speedybee.com/speedybee-tx800/",
+  "source_image_url": "https://www.speedybee.com/speedybee-tx800/",
+  "source_note": "Официальная страница SpeedyBee TX800: EU/CE таблица ограничена Raceband.",
+  "bands": [
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": true,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 14,
+      "label": "25"
+    },
+    {
+      "value": 20,
+      "label": "100"
+    },
+    {
+      "value": 26,
+      "label": "400"
+    },
+    {
+      "value": 30,
+      "label": "800"
+    }
+  ],
+  "notes": [
+    "Добавлено из официальной страницы/таблицы производителя; перед записью сверять с ревизией VTX и региональными ограничениями.",
+    "EU/CE вариант намеренно оставляет только Raceband из официальной таблицы."
+  ]
+}
