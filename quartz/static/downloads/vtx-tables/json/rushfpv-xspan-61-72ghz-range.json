@@ -1,0 +1,22 @@
+{
+  "id": "rushfpv-xspan-61-72ghz-range",
+  "manufacturer": "RUSHFPV",
+  "model": "XSPAN / wideband 6.1-7.2 GHz",
+  "variant": "range",
+  "band_family": "6.1-7.2 GHz analog",
+  "kind": "range",
+  "status": "диапазон",
+  "protocol": "Wideband VRX/VTX range",
+  "source_title": "RUSHFPV Download Center",
+  "source_url": "https://rushfpv.net/pages/download-center",
+  "range_only": true,
+  "ranges_mhz": [
+    {
+      "name": "6.1-7.2 GHz",
+      "start": 6100,
+      "end": 7200,
+      "note": "Широкий диапазон; конкретную сетку проверять по модулю."
+    }
+  ],
+  "notes": ["Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."]
+}

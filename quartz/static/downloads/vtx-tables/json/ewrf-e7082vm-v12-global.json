@@ -1,0 +1,68 @@
+{
+  "id": "ewrf-e7082vm-v12-global",
+  "manufacturer": "EWRF",
+  "model": "EWRF E7082VM v1.2",
+  "variant": "Global / Unlocked",
+  "band_family": "5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table",
+  "source_title": "Jackjan4/betaflight-vtx-tables",
+  "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/ewrf/ewrf-e7082VM-v12-global.json",
+  "source_note": "Betaflight VTX Config file for EWRF e7082VM v12 (Unlocked/Global Version)",
+  "bands": [
+    {
+      "name": "BOSCAM_A",
+      "letter": "A",
+      "factory": true,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BOSCAM_B",
+      "letter": "B",
+      "factory": true,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BOSCAM_E",
+      "letter": "E",
+      "factory": true,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "FATSHARK",
+      "letter": "F",
+      "factory": true,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": true,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    },
+    {
+      "name": "LOWRACE",
+      "letter": "L",
+      "factory": true,
+      "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 14,
+      "label": "25"
+    },
+    {
+      "value": 20,
+      "label": "100"
+    },
+    {
+      "value": 24,
+      "label": "250"
+    }
+  ],
+  "notes": [
+    "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+  ]
+}

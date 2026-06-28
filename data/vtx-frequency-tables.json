@@ -1,0 +1,3235 @@
+{
+  "updated": "2026-06-28",
+  "sources": [
+    {
+      "id": "betaflight-vtx-docs",
+      "title": "Betaflight VTX tab documentation",
+      "url": "https://betaflight.com/docs/wiki/app/vtx-tab",
+      "note": "формат VTX tables и порядок применения в Betaflight"
+    },
+    {
+      "id": "betaflight-community-vtx-tables",
+      "title": "Jackjan4/betaflight-vtx-tables",
+      "url": "https://github.com/Jackjan4/betaflight-vtx-tables",
+      "note": "публичные JSON-таблицы производителей для Betaflight"
+    },
+    {
+      "id": "foxeer-reaper-manual-page",
+      "title": "Foxeer Reaper Extreme manual page",
+      "url": "https://manuals.plus/foxeer/vtx-reaper-extreme-manual",
+      "note": "ориентир для Foxeer Reaper, требует сверки с конкретной ревизией"
+    },
+    {
+      "id": "rushfpv-download-center",
+      "title": "RUSHFPV Download Center",
+      "url": "https://rushfpv.net/pages/download-center",
+      "note": "страница производителя для файлов и широких диапазонов RUSHFPV"
+    },
+    {
+      "id": "tbs-unify-manual",
+      "title": "TBS Unify Pro 5G8 manual",
+      "url": "https://www.team-blacksheep.com/media/files/tbs-unify-pro-5g8-manual.pdf",
+      "note": "мануал TBS Unify 5G8 для сверки сеток TBS"
+    }
+  ],
+  "tables": [
+    {
+      "id": "akk-fx2-dominator-fcc",
+      "manufacturer": "AKK",
+      "model": "AKK FX2 Dominator",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-dominator-fcc.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "250"
+        },
+        {
+          "value": 1,
+          "label": "500"
+        },
+        {
+          "value": 2,
+          "label": "1W"
+        },
+        {
+          "value": 3,
+          "label": "2W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-fx2-dominator-global",
+      "manufacturer": "AKK",
+      "model": "AKK FX2 Dominator",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-dominator-global.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "250"
+        },
+        {
+          "value": 1,
+          "label": "500"
+        },
+        {
+          "value": 2,
+          "label": "1W"
+        },
+        {
+          "value": 3,
+          "label": "2W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-fx2-ultimate-international-global",
+      "manufacturer": "AKK",
+      "model": "AKK FX2 Ultimate International",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-international-global.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "1W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-fx2-ultimate-mini-international-fcc",
+      "manufacturer": "AKK",
+      "model": "AKK FX2 Ultimate Mini International",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-mini-international-fcc.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "1W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-fx2-ultimate-mini-international-global",
+      "manufacturer": "AKK",
+      "model": "AKK FX2 Ultimate Mini International",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx2-ultimate-mini-international-global.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "1W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-fx3-ultimate-fcc",
+      "manufacturer": "AKK",
+      "model": "AKK FX3 Ultimate",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx3-ultimate-fcc.json",
+      "source_note": "Betaflight VTX Config file for AKK FX3 Ultimate FCC",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "400"
+        },
+        {
+          "value": 3,
+          "label": "600"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-fx3-ultimate-global",
+      "manufacturer": "AKK",
+      "model": "AKK FX3 Ultimate",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-fx3-ultimate-global.json",
+      "source_note": "Betaflight VTX Config file for AKK FX3 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "400"
+        },
+        {
+          "value": 3,
+          "label": "600"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-race-fcc",
+      "manufacturer": "AKK",
+      "model": "AKK Race",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-race-fcc.json",
+      "source_note": "Betaflight VTX Config file for AKK Race (FCC version)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "BAND_F",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-x2-ultimate-international-fcc",
+      "manufacturer": "AKK",
+      "model": "AKK X2 Ultimate International",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-fcc.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "1W2"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "akk-x2-ultimate-international-global",
+      "manufacturer": "AKK",
+      "model": "AKK X2 Ultimate International",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-global.json",
+      "source_note": "Betaflight VTX Config file for AKK X2 Ultimate International (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "1W2"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "betafpv-m03-v1.0-global",
+      "manufacturer": "BetaFPV",
+      "model": "BetaFPV M03 v1.0",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/betafpv/betafpv-M03-V1.0-global.json",
+      "source_note": "Betaflight VTX Config file for BetaFPV M03 V1.0",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "100"
+        },
+        {
+          "value": 2,
+          "label": "200"
+        },
+        {
+          "value": 3,
+          "label": "350"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "betafpv-m03-v1.1-global",
+      "manufacturer": "BetaFPV",
+      "model": "BetaFPV M03 v1.1",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/betafpv/betafpv-M03-V1.1-global.json",
+      "source_note": "Betaflight VTX Config file for BetaFPV M03 V1.1",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 1,
+          "label": "25"
+        },
+        {
+          "value": 0,
+          "label": "PIT"
+        },
+        {
+          "value": 2,
+          "label": "100"
+        },
+        {
+          "value": 3,
+          "label": "200"
+        },
+        {
+          "value": 4,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "caddx-beetle-v2-global",
+      "manufacturer": "Caddx",
+      "model": "Caddx Beetle V2",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/caddx/caddx-beetle-v2-global.json",
+      "source_note": "Betaflight VTX Config file for Caddx Beetle V2 (that is stock in the Eachine Tyro69) (SmartAudio V2) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "caddx-firefly-global",
+      "manufacturer": "Caddx",
+      "model": "Caddx Firefly",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/caddx/caddx-firefly-global.json",
+      "source_note": "Betaflight VTX Config file for Caddx Firefly (SmartAudio V2) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "DIATONE",
+          "letter": "D",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "common-58ghz-abefrl-reference",
+      "manufacturer": "Common",
+      "model": "Standard 5.8 GHz A/B/E/F/R/L",
+      "variant": "48CH reference",
+      "band_family": "5.8 GHz analog",
+      "kind": "reference-table",
+      "status": "справочник",
+      "protocol": "Analog FPV frequency grid",
+      "source_title": "Betaflight VTX documentation",
+      "source_url": "https://betaflight.com/docs/wiki/app/vtx-tab",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWBAND",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [],
+      "notes": ["Базовая справочная сетка для сверки A/B/E/F/R/L."]
+    },
+    {
+      "id": "eachine-nano-vtx-fcc",
+      "manufacturer": "Eachine",
+      "model": "Eachine Nano VTX",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-nano-vtx-fcc.json",
+      "source_note": "Betaflight VTX Config file for the Eachine Nano VTX (FCC version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 400,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-nano-vtx-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine Nano VTX",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-nano-vtx-global.json",
+      "source_note": "Betaflight VTX Config file for the Eachine Nano VTX (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "Low Band",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 400,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-trashcan-stock-vtx-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine Trashcan Stock VTX",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-trashcan-stock-vtx-global.json",
+      "source_note": "Betaflight VTX Config file for the stock VTX in the Eachine Trashcan (SmartAudio V2) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-tx805-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine TX805",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tx805-global.json",
+      "source_note": "Betaflight VTX Config file for Eachine TX805 (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-tx805s-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine TX805S",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tx805s-global.json",
+      "source_note": "Betaflight VTX Config file for Eachine TX805S (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "500"
+        },
+        {
+          "value": 2,
+          "label": "1W"
+        },
+        {
+          "value": 3,
+          "label": "1W6"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-tyro69-stock-vtx-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine Tyro69 Stock VTX",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tyro69-stock-vtx-global.json",
+      "source_note": "Betaflight VTX Config file for the stock VTX in the Eachine Tyro69 (which they call Caddx Beetle V2) (SmartAudio V2) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-tyro79-stock-vtx-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine Tyro79 Stock VTX",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-tyro79-stock-vtx-global.json",
+      "source_note": "Betaflight VTX Config file for the Eachine Tyro79 stock VTX (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "100"
+        },
+        {
+          "value": 2,
+          "label": "200"
+        },
+        {
+          "value": 3,
+          "label": "300"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "eachine-xf5804-global",
+      "manufacturer": "Eachine",
+      "model": "Eachine XF5804",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/eachine/eachine-xf5804-global.json",
+      "source_note": "Betaflight VTX Config file for Eachine XF5804 (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "emax-mini-magnum2-vtx-global",
+      "manufacturer": "EMAX",
+      "model": "EMAX Mini Magnum2 VTX",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/emax/emax-mini-magnum2-vtx-global.json",
+      "source_note": "Betaflight VTX Config file for EMAX Mini Magnum2 VTX (From their Flytower) (SmartAudio 2.0) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "ewrf-e7082vm-v12-global",
+      "manufacturer": "EWRF",
+      "model": "EWRF E7082VM v1.2",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/ewrf/ewrf-e7082VM-v12-global.json",
+      "source_note": "Betaflight VTX Config file for EWRF e7082VM v12 (Unlocked/Global Version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 24,
+          "label": "250"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-58ghz-reference",
+      "manufacturer": "Foxeer",
+      "model": "Reaper / Reaper Extreme 5.8G reference grid",
+      "variant": "A/B/E/F/R 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "reference-table",
+      "status": "требует проверки",
+      "protocol": "Analog FPV frequency grid",
+      "source_title": "Foxeer Reaper Extreme manual page",
+      "source_url": "https://manuals.plus/foxeer/vtx-reaper-extreme-manual",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [],
+      "notes": [
+        "Добавлено как Foxeer-совместимая 5.8G сетка; сверять с наклейкой/мануалом конкретной версии перед прошивкой."
+      ]
+    },
+    {
+      "id": "geprc-f411-stable-global",
+      "manufacturer": "GEPRC",
+      "model": "GEPRC F411 Stable",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/geprc/geprc-f411-stable-global.json",
+      "source_note": "Betaflight VTX Config file for GEPRC F411 Stable Stack VTX (IRC Tramp) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "HIGHBAND",
+          "letter": "H",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "happymodel-mobula7-stock-vtx-global",
+      "manufacturer": "HappyModel",
+      "model": "HappyModel Mobula7 Stock VTX",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/happymodel/happymodel-mobula7-stock-vtx-global.json",
+      "source_note": "Betaflight VTX Config file for the stock VTX in the Happymodel Mobula7 (SmartAudio V2) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "iflight-mini-global",
+      "manufacturer": "iFlight",
+      "model": "iFlight Mini",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-mini-global.json",
+      "source_note": "Betaflight VTX Config file for the IFlightRC VTX Mini (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND_D",
+          "letter": "D",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "iflight-pro-global",
+      "manufacturer": "iFlight",
+      "model": "iFlight Pro",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-pro-global.json",
+      "source_note": "Betaflight VTX Config file for the IFlightRC VTX Pro (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND_D",
+          "letter": "D",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 400,
+          "label": "400"
+        },
+        {
+          "value": 600,
+          "label": "600"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "iflight-succex-force-eu",
+      "manufacturer": "iFlight",
+      "model": "iFlight Succex Force",
+      "variant": "EU",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-succex-force-eu.json",
+      "source_note": "Betaflight VTX Config for iFlight SucceX Force 800mW (IRC Tramp) (EU version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 0]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 0]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [0, 0, 5732, 5769, 5806, 5843, 0, 0]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 400,
+          "label": "400"
+        },
+        {
+          "value": 600,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "iflight-succex-force-fcc",
+      "manufacturer": "iFlight",
+      "model": "iFlight Succex Force",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/iflight/iflight-succex-force-fcc.json",
+      "source_note": "Betaflight VTX Config file for iFlight SucceX Force 800mW (IRC Tramp) (FCC Version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 400,
+          "label": "400"
+        },
+        {
+          "value": 600,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "irc-tramp-hv-global",
+      "manufacturer": "ImmersionRC",
+      "model": "ImmersionRC IRC Tramp HV",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/immersionrc/irc-tramp-hv-global.json",
+      "source_note": "Betaflight VTX Config file for the ImmersionRC Tramp HV (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "100"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 400,
+          "label": "400"
+        },
+        {
+          "value": 600,
+          "label": "600"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rdq-mach3-global",
+      "manufacturer": "RDQ",
+      "model": "RDQ Mach3",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rdq/rdq-mach3-global.json",
+      "source_note": "Betaflight VTX Config file for RDQ Mach3 (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "600"
+        },
+        {
+          "value": 3,
+          "label": "1000"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rush-max-solo-global",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV RUSH Max Solo",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-max-solo-global.json",
+      "source_note": "Betaflight VTX Config file for Rush Max Solo (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 30,
+          "label": "1W"
+        },
+        {
+          "value": 34,
+          "label": "2.5W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rush-tank-mini-global",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV RUSH Tank Mini",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-mini-global.json",
+      "source_note": "Betaflight VTX Config file for Rush Tank Mini (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "500"
+        },
+        {
+          "value": 3,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rush-tank-race-global",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV RUSH Tank Race",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-race-global.json",
+      "source_note": "Betaflight VTX Config file for Rush Tank Race (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "50"
+        },
+        {
+          "value": 2,
+          "label": "200"
+        },
+        {
+          "value": 3,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rush-tank-tiny-global",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV RUSH Tank Tiny",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-tiny-global.json",
+      "source_note": "Betaflight VTX Config file for Rush Tiny Tank (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "100"
+        },
+        {
+          "value": 2,
+          "label": "200"
+        },
+        {
+          "value": 3,
+          "label": "MAX"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rush-tank-ultimate-global",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV RUSH Tank Ultimate",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-ultimate-global.json",
+      "source_note": "Betaflight VTX Config file for Rush Tank Ultimate (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "200"
+        },
+        {
+          "value": 2,
+          "label": "500"
+        },
+        {
+          "value": 3,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rush-tank-ultimate-plus-global",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV RUSH Tank Ultimate Plus",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/rush/rush-tank-ultimate-plus-global.json",
+      "source_note": "Betaflight VTX Config file for Rush Tank Ultimate Plus (Unlocked/Global version) (SmartAudio 2.0)",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "rushfpv-xspan-31-38ghz-range",
+      "manufacturer": "RUSHFPV",
+      "model": "XSPAN / wideband 3.1-3.8 GHz",
+      "variant": "range",
+      "band_family": "3.1-3.8 GHz analog",
+      "kind": "range",
+      "status": "диапазон",
+      "protocol": "Wideband VRX/VTX range",
+      "source_title": "RUSHFPV Download Center",
+      "source_url": "https://rushfpv.net/pages/download-center",
+      "range_only": true,
+      "ranges_mhz": [
+        {
+          "name": "3.1-3.8 GHz",
+          "start": 3100,
+          "end": 3800,
+          "note": "Широкий диапазон; конкретную сетку проверять по модулю."
+        }
+      ],
+      "notes": [
+        "Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."
+      ]
+    },
+    {
+      "id": "rushfpv-xspan-48-61ghz-range",
+      "manufacturer": "RUSHFPV",
+      "model": "XSPAN / wideband 4.8-6.1 GHz",
+      "variant": "range",
+      "band_family": "4.8-6.1 GHz analog",
+      "kind": "range",
+      "status": "диапазон",
+      "protocol": "Wideband VRX/VTX range",
+      "source_title": "RUSHFPV Download Center",
+      "source_url": "https://rushfpv.net/pages/download-center",
+      "range_only": true,
+      "ranges_mhz": [
+        {
+          "name": "4.8-6.1 GHz",
+          "start": 4800,
+          "end": 6100,
+          "note": "Широкий диапазон; конкретную сетку проверять по модулю."
+        }
+      ],
+      "notes": [
+        "Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."
+      ]
+    },
+    {
+      "id": "rushfpv-xspan-61-72ghz-range",
+      "manufacturer": "RUSHFPV",
+      "model": "XSPAN / wideband 6.1-7.2 GHz",
+      "variant": "range",
+      "band_family": "6.1-7.2 GHz analog",
+      "kind": "range",
+      "status": "диапазон",
+      "protocol": "Wideband VRX/VTX range",
+      "source_title": "RUSHFPV Download Center",
+      "source_url": "https://rushfpv.net/pages/download-center",
+      "range_only": true,
+      "ranges_mhz": [
+        {
+          "name": "6.1-7.2 GHz",
+          "start": 6100,
+          "end": 7200,
+          "note": "Широкий диапазон; конкретную сетку проверять по модулю."
+        }
+      ],
+      "notes": [
+        "Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."
+      ]
+    },
+    {
+      "id": "t-motor-ft200-eu",
+      "manufacturer": "T-Motor",
+      "model": "T-Motor T Motor FT200",
+      "variant": "EU",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-eu.json",
+      "source_note": "Betaflight VTX Config file for T-Motor FT200 (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "50"
+        },
+        {
+          "value": 26,
+          "label": "200"
+        },
+        {
+          "value": 30,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "t-motor-ft200-fcc",
+      "manufacturer": "T-Motor",
+      "model": "T-Motor T Motor FT200",
+      "variant": "FCC",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-fcc.json",
+      "source_note": "Betaflight VTX Config file for T-Motor FT200 (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "50"
+        },
+        {
+          "value": 26,
+          "label": "200"
+        },
+        {
+          "value": 30,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "t-motor-ft200-global",
+      "manufacturer": "T-Motor",
+      "model": "T-Motor T Motor FT200",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/t-motor/t-motor-ft200-global.json",
+      "source_note": "Betaflight VTX Config file for T-Motor FT200 (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "50"
+        },
+        {
+          "value": 26,
+          "label": "200"
+        },
+        {
+          "value": 30,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "tbs-unify-evo-global",
+      "manufacturer": "TBS",
+      "model": "TBS Unify Evo",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-evo-global.json",
+      "source_note": "Betaflight VTX Config file for TBS Unify Evo (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "tbs-unify-pro-5g8-hv-race2-global",
+      "manufacturer": "TBS",
+      "model": "TBS Unify Pro 5G8 HV Race2",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro-5g8-hv-race2-global.json",
+      "source_note": "Betaflight VTX Config file for TBS Unify Pro 5G8 HV - Race 2 (MMCX) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 13,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "tbs-unify-pro32-hv-global",
+      "manufacturer": "TBS",
+      "model": "TBS Unify Pro32 HV",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-hv-global.json",
+      "source_note": "Betaflight VTX Config file for TBS Unify Pro32 HV (MMCX) (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 30,
+          "label": "1W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "tbs-unify-pro32-nano-5g8-eu",
+      "manufacturer": "TBS",
+      "model": "TBS Unify Pro32 Nano 5G8",
+      "variant": "EU",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-nano-5g8-eu.json",
+      "source_note": "Betaflight VTX Config file for TBS Unify Pro32 5G8 Nano (EU version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5769, 5806, 5843]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "tbs-unify-pro32-nano-5g8-global",
+      "manufacturer": "TBS",
+      "model": "TBS Unify Pro32 Nano 5G8",
+      "variant": "Global / Unlocked",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table",
+      "source_title": "Jackjan4/betaflight-vtx-tables",
+      "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/tbs/tbs-unify-pro32-nano-5g8-global.json",
+      "source_note": "Betaflight VTX Config file for TBS Unify Pro32 5G8 Nano (Unlocked/Global version)",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичного репозитория Betaflight VTX Tables; перед записью сверять с конкретным VTX."
+      ]
+    },
+    {
+      "id": "vrx-sk1200-12-13ghz-field-grid",
+      "manufacturer": "VRX/Scanner",
+      "model": "SK1200 1.2/1.3 GHz fixed channels",
+      "variant": "8CH field grid",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "reference-table",
+      "status": "полевой опыт",
+      "protocol": "Analog VRX fixed channels",
+      "source_title": "Local FPV scanner notes",
+      "source_url": "https://github.com/VMSeregA/fpv-encyclopedia-public",
+      "bands": [
+        {
+          "name": "SK1200",
+          "letter": "S",
+          "factory": false,
+          "frequencies": [1080, 1120, 1160, 1200, 1240, 1280, 1320, 1360]
+        }
+      ],
+      "powerlevels": [],
+      "notes": ["Полевой справочник для быстрого поиска VRX; сверять с конкретным приемником."]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rushfpv-xspan-48-61ghz-range",
+  "manufacturer": "RUSHFPV",
+  "model": "XSPAN / wideband 4.8-6.1 GHz",
+  "variant": "range",
+  "band_family": "4.8-6.1 GHz analog",
+  "kind": "range",
+  "status": "диапазон",
+  "protocol": "Wideband VRX/VTX range",
+  "source_title": "RUSHFPV Download Center",
+  "source_url": "https://rushfpv.net/pages/download-center",
+  "range_only": true,
+  "ranges_mhz": [
+    {
+      "name": "4.8-6.1 GHz",
+      "start": 4800,
+      "end": 6100,
+      "note": "Широкий диапазон; конкретную сетку проверять по модулю."
+    }
+  ],
+  "notes": ["Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."]
+}

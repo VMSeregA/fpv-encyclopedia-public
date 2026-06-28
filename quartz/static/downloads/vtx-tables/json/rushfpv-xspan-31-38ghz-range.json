@@ -1,0 +1,22 @@
+{
+  "id": "rushfpv-xspan-31-38ghz-range",
+  "manufacturer": "RUSHFPV",
+  "model": "XSPAN / wideband 3.1-3.8 GHz",
+  "variant": "range",
+  "band_family": "3.1-3.8 GHz analog",
+  "kind": "range",
+  "status": "диапазон",
+  "protocol": "Wideband VRX/VTX range",
+  "source_title": "RUSHFPV Download Center",
+  "source_url": "https://rushfpv.net/pages/download-center",
+  "range_only": true,
+  "ranges_mhz": [
+    {
+      "name": "3.1-3.8 GHz",
+      "start": 3100,
+      "end": 3800,
+      "note": "Широкий диапазон; конкретную сетку проверять по модулю."
+    }
+  ],
+  "notes": ["Диапазон добавлен для энциклопедии VRX/VTX; это не готовая сетка каналов Betaflight."]
+}
