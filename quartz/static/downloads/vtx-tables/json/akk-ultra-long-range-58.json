@@ -1,0 +1,71 @@
+{
+  "id": "akk-ultra-long-range-58",
+  "manufacturer": "AKK",
+  "model": "AKK Ultra Long Range",
+  "variant": "5.8GHz / 40CH",
+  "band_family": "5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "VTx Tables / smart-audio",
+  "source_title": "VTx Tables API",
+  "source_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+  "source_note": "slug=akk-ultra-long-range, version=5.8",
+  "source_image_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+  "bands": [
+    {
+      "name": "BOSCAM_A",
+      "letter": "A",
+      "factory": true,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BOSCAM_B",
+      "letter": "B",
+      "factory": true,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BOSCAM_E",
+      "letter": "E",
+      "factory": true,
+      "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+    },
+    {
+      "name": "FATSHARK",
+      "letter": "F",
+      "factory": true,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": true,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 0,
+      "label": "250"
+    },
+    {
+      "value": 1,
+      "label": "500"
+    },
+    {
+      "value": 2,
+      "label": "1W"
+    },
+    {
+      "value": 3,
+      "label": "2W"
+    },
+    {
+      "value": 4,
+      "label": "3W"
+    }
+  ],
+  "notes": [
+    "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "rush-drive-max-solo-x-band-4-9g-vtx",
+  "manufacturer": "RUSHFPV",
+  "model": "MAX SOLO X BAND 4.9G VTX",
+  "variant": "Google Drive JSON",
+  "band_family": "4.9 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table JSON",
+  "source_title": "RUSHFPV VTX Table Google Drive folder",
+  "source_url": "https://drive.google.com/file/d/10kHFTK1MQJHF28mgbOxkeXWN_hDbtNM0/view",
+  "source_note": "filename=MAX  SOLO X-BAND 4.9G VTX.json",
+  "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+  "bands": [
+    {
+      "name": "BAND_A",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 25,
+      "label": "25"
+    },
+    {
+      "value": 500,
+      "label": "500"
+    },
+    {
+      "value": 1000,
+      "label": "1W"
+    },
+    {
+      "value": 2500,
+      "label": "2W5"
+    }
+  ],
+  "notes": [
+    "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+  ]
+}

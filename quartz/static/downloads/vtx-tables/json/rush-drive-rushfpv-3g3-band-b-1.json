@@ -1,0 +1,43 @@
+{
+  "id": "rush-drive-rushfpv-3g3-band-b-1",
+  "manufacturer": "RUSHFPV",
+  "model": "RUSHFPV 3G3 BADN B(1)",
+  "variant": "Google Drive JSON",
+  "band_family": "3.3 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table JSON",
+  "source_title": "RUSHFPV VTX Table Google Drive folder",
+  "source_url": "https://drive.google.com/file/d/10SO9z8UtlE1SJJuPDCw-ApH8tE_k6vOf/view",
+  "source_note": "filename=RUSHFPV_3G3_BADN-B(1).json",
+  "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+  "bands": [
+    {
+      "name": "BAND-B",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [3170, 3190, 3210, 3230, 3250, 3270, 3290, 3310]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 25,
+      "label": "25"
+    },
+    {
+      "value": 200,
+      "label": "200"
+    },
+    {
+      "value": 1000,
+      "label": "1"
+    },
+    {
+      "value": 2000,
+      "label": "2"
+    }
+  ],
+  "notes": [
+    "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+  ]
+}

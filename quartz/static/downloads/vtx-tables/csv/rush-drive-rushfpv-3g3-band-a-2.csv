@@ -1,0 +1,9 @@
+band,letter,channel,frequency_mhz
+BAND-A,A,1,3330
+BAND-A,A,2,3350
+BAND-A,A,3,3370
+BAND-A,A,4,3390
+BAND-A,A,5,3410
+BAND-A,A,6,3430
+BAND-A,A,7,3450
+BAND-A,A,8,3470

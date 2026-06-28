@@ -1,0 +1,51 @@
+{
+  "id": "akk-alpha-16w-96ch-range",
+  "manufacturer": "AKK",
+  "model": "AKK Alpha 16 VTX",
+  "variant": "4.9-6.0GHz / 96CH / range only",
+  "band_family": "4.9-6.0 GHz analog",
+  "kind": "range",
+  "status": "требует проверки",
+  "protocol": "SmartAudio / 96CH product page",
+  "source_title": "AKK Alpha 16 VTX product page",
+  "source_url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+  "source_image_url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+  "range_only": true,
+  "ranges_mhz": [
+    {
+      "name": "4.9-6.0 GHz 96CH",
+      "start": 4900,
+      "end": 6000,
+      "note": "Страница подтверждает 96CH и диапазон 4.9-6.0 GHz, но не публикует полную раскладку каналов."
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 25,
+      "label": "25mW"
+    },
+    {
+      "value": 1000,
+      "label": "1W"
+    },
+    {
+      "value": 3000,
+      "label": "3W"
+    },
+    {
+      "value": 5000,
+      "label": "5W"
+    },
+    {
+      "value": 8000,
+      "label": "8W"
+    },
+    {
+      "value": 16000,
+      "label": "16W"
+    }
+  ],
+  "notes": [
+    "Добавлено как диапазон, а не готовая таблица частот: источник подтверждает модель, диапазон и 96CH, но не даёт все 96 частот по каналам."
+  ]
+}

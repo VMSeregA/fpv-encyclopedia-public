@@ -1,0 +1,67 @@
+{
+  "id": "rush-drive-rush-tank-ultimate-mini-sa21-37ch",
+  "manufacturer": "RUSHFPV",
+  "model": "RUSH TANK ULTIMATE MINI SA2.1 37CH",
+  "variant": "Google Drive JSON",
+  "band_family": "5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table JSON",
+  "source_title": "RUSHFPV VTX Table Google Drive folder",
+  "source_url": "https://drive.google.com/file/d/1cripCDBagCVdaqGLynaTl7srtiq_jsOB/view",
+  "source_note": "filename=RUSH_TANK_ULTIMATE_MINI_SA2.1_37CH.json",
+  "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+  "bands": [
+    {
+      "name": "BAND_A",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BAND_B",
+      "letter": "B",
+      "factory": false,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BAND_E",
+      "letter": "E",
+      "factory": false,
+      "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+    },
+    {
+      "name": "AIRWAVE",
+      "letter": "F",
+      "factory": false,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": false,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 14,
+      "label": "25"
+    },
+    {
+      "value": 23,
+      "label": "200"
+    },
+    {
+      "value": 27,
+      "label": "500"
+    },
+    {
+      "value": 29,
+      "label": "800"
+    }
+  ],
+  "notes": [
+    "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+  ]
+}

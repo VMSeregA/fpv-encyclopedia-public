@@ -1,0 +1,9 @@
+band,letter,channel,frequency_mhz
+BAND_A,A,1,4990
+BAND_A,A,2,5020
+BAND_A,A,3,5050
+BAND_A,A,4,5080
+BAND_A,A,5,5110
+BAND_A,A,6,5140
+BAND_A,A,7,5170
+BAND_A,A,8,5200

@@ -1,0 +1,79 @@
+{
+  "id": "rush-drive-4g9-5g8-vtx",
+  "manufacturer": "RUSHFPV",
+  "model": "4G9 5G8 VTX",
+  "variant": "Google Drive JSON",
+  "band_family": "4.9-5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table JSON",
+  "source_title": "RUSHFPV VTX Table Google Drive folder",
+  "source_url": "https://drive.google.com/file/d/1n1AToYUTkG7ErdaP4sjNCKghArHRf3mB/view",
+  "source_note": "filename=4G9 5G8 VTX.json",
+  "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+  "bands": [
+    {
+      "name": "BAND-A",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BAND-B",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BAND-E",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "BAND-F",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "BAND-R",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    },
+    {
+      "name": "BAND-L",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+    },
+    {
+      "name": "BAND-X",
+      "letter": "B",
+      "factory": false,
+      "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 25,
+      "label": "PA1"
+    },
+    {
+      "value": 200,
+      "label": "PA2"
+    },
+    {
+      "value": 1000,
+      "label": "PA3"
+    },
+    {
+      "value": 2500,
+      "label": "PA4"
+    }
+  ],
+  "notes": [
+    "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+  ]
+}

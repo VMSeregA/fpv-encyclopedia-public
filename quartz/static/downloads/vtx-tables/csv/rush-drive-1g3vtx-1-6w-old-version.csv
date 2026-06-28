@@ -1,0 +1,17 @@
+band,letter,channel,frequency_mhz
+A,A,1,1080
+A,A,2,1120
+A,A,3,1160
+A,A,4,1200
+A,A,5,1240
+A,A,6,1258
+A,A,7,1280
+A,A,8,1320
+B,B,1,1360
+B,B,2,0
+B,B,3,0
+B,B,4,0
+B,B,5,0
+B,B,6,0
+B,B,7,0
+B,B,8,0

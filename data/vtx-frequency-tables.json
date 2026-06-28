@@ -84,6 +84,24 @@
       "title": "Foxeer Reaper Extreme V3 2.5W 80CH manual page",
       "url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
       "note": "страница мануала Foxeer Reaper Extreme V3 2.5W 80CH с таблицей частот"
+    },
+    {
+      "id": "google-drive-rushfpv-vtx-table-folder",
+      "title": "RUSHFPV VTX Table Google Drive folder",
+      "url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "note": "публичная папка RUSHFPV с JSON VTX tables и изображениями SA2.1"
+    },
+    {
+      "id": "vtx-tables-api",
+      "title": "VTx Tables API",
+      "url": "https://vtx-tables.vercel.app/api/list",
+      "note": "публичный каталог CLI vtxtable; данные сверять с конкретной ревизией перед записью"
+    },
+    {
+      "id": "kimpok-akk-alpha-16-product-page",
+      "title": "AKK Alpha 16 VTX product page",
+      "url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+      "note": "страница поставщика с подтверждением AKK Alpha 16, 4.9-6.0 GHz, 96CH и уровней мощности; полной таблицы каналов на странице нет"
     }
   ],
   "tables": [
@@ -3388,135 +3406,46 @@
       "id": "rush-tank-solo-58g",
       "manufacturer": "RUSHFPV",
       "model": "RUSH Tank Solo 5.8G",
-      "variant": "Raceband / 8CH",
+      "variant": "5.8GHz / 48CH",
       "band_family": "5.8 GHz analog",
       "kind": "vtx-table",
       "status": "сообщество",
-      "protocol": "Betaflight VTX table",
-      "source_title": "VTx Tables RUSHFPV pages",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
       "source_url": "https://vtx-tables.vercel.app/rush-tank-solo-58g",
-      "source_image_url": "https://rushfpv.net/pages/download-center",
+      "source_note": "slug=rush-tank-solo-58g, version=5.8",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-tank-solo-58g",
       "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
         {
           "name": "RACEBAND",
           "letter": "R",
           "factory": false,
           "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
-        }
-      ],
-      "notes": [
-        "Добавлено по публичной CLI-таблице VTx Tables; перед записью сверять с мануалом конкретной версии RUSH Tank Solo."
-      ]
-    },
-    {
-      "id": "rush-1213ghz-vtx-1600mw",
-      "manufacturer": "RUSHFPV",
-      "model": "RUSH 1.2/1.3GHz VTX 1600mW",
-      "variant": "1.2/1.3GHz Raceband / 8CH",
-      "band_family": "1.2/1.3 GHz analog",
-      "kind": "vtx-table",
-      "status": "сообщество",
-      "protocol": "Betaflight VTX table",
-      "source_title": "VTx Tables RUSHFPV pages",
-      "source_url": "https://vtx-tables.vercel.app/rush-1213ghz-vtx-1600mw",
-      "source_image_url": "https://rushfpv.net/pages/download-center",
-      "bands": [
-        {
-          "name": "RACEBAND",
-          "letter": "R",
-          "factory": false,
-          "frequencies": [1080, 1120, 1160, 1200, 1258, 1280, 1320, 1360]
-        }
-      ],
-      "notes": [
-        "Добавлено по публичной CLI-таблице VTx Tables; диапазон 1.2/1.3 GHz требует проверки совместимости с локальными правилами и приемником."
-      ]
-    },
-    {
-      "id": "rush-1213ghz-4w-vtx",
-      "manufacturer": "RUSHFPV",
-      "model": "RUSH 1.2/1.3GHz 4W VTX",
-      "variant": "1.2/1.3GHz Raceband / 8CH",
-      "band_family": "1.2/1.3 GHz analog",
-      "kind": "vtx-table",
-      "status": "сообщество",
-      "protocol": "Betaflight VTX table",
-      "source_title": "VTx Tables RUSHFPV pages",
-      "source_url": "https://vtx-tables.vercel.app/rush-1213ghz-4w-vtx",
-      "source_image_url": "https://rushfpv.net/pages/download-center",
-      "bands": [
-        {
-          "name": "RACEBAND",
-          "letter": "R",
-          "factory": false,
-          "frequencies": [1080, 1120, 1160, 1200, 1258, 1280, 1320, 1360]
-        }
-      ],
-      "notes": [
-        "Добавлено по публичной CLI-таблице VTx Tables; 4W версию обязательно сверять по охлаждению, питанию и региональным ограничениям."
-      ]
-    },
-    {
-      "id": "rush-33ghz-2w-vtx",
-      "manufacturer": "RUSHFPV",
-      "model": "RUSH 3.3GHz 2W VTX",
-      "variant": "3.3GHz A band / 8CH",
-      "band_family": "3.3 GHz analog",
-      "kind": "vtx-table",
-      "status": "сообщество",
-      "protocol": "Betaflight VTX table",
-      "source_title": "VTx Tables RUSHFPV pages",
-      "source_url": "https://vtx-tables.vercel.app/rush-33ghz-2w-vtx",
-      "source_image_url": "https://rushfpv.net/pages/download-center",
-      "bands": [
-        {
-          "name": "BAND_A",
-          "letter": "A",
-          "factory": false,
-          "frequencies": [3200, 3225, 3250, 3275, 3300, 3325, 3350, 3375]
-        }
-      ],
-      "notes": [
-        "Добавлено по публичной CLI-таблице VTx Tables; 3.3 GHz сетку сверять с используемым VRX/сканером."
-      ]
-    },
-    {
-      "id": "rush-33ghz-4w-vtx",
-      "manufacturer": "RUSHFPV",
-      "model": "RUSH 3.3GHz 4W VTX",
-      "variant": "3.3GHz A band / 8CH",
-      "band_family": "3.3 GHz analog",
-      "kind": "vtx-table",
-      "status": "сообщество",
-      "protocol": "Betaflight VTX table",
-      "source_title": "VTx Tables RUSHFPV pages",
-      "source_url": "https://vtx-tables.vercel.app/rush-33ghz-4w-vtx",
-      "source_image_url": "https://rushfpv.net/pages/download-center",
-      "bands": [
-        {
-          "name": "BAND_A",
-          "letter": "A",
-          "factory": false,
-          "frequencies": [3200, 3225, 3250, 3275, 3300, 3325, 3350, 3375]
-        }
-      ],
-      "notes": [
-        "Добавлено по публичной CLI-таблице VTx Tables; 4W версию обязательно сверять по охлаждению, питанию и региональным ограничениям."
-      ]
-    },
-    {
-      "id": "rushfpv-25w-vtx-dual-band",
-      "manufacturer": "RUSHFPV",
-      "model": "RUSHFPV 2.5W VTX Dual-Band",
-      "variant": "LowRace / 8CH",
-      "band_family": "5.3-5.6 GHz analog",
-      "kind": "vtx-table",
-      "status": "сообщество",
-      "protocol": "Betaflight VTX table",
-      "source_title": "VTx Tables RUSHFPV pages",
-      "source_url": "https://vtx-tables.vercel.app/rushfpv-25w-vtx-dual-band",
-      "source_image_url": "https://rushfpv.net/pages/download-center",
-      "bands": [
+        },
         {
           "name": "LOWRACE",
           "letter": "L",
@@ -3524,8 +3453,287 @@
           "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
         }
       ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        },
+        {
+          "value": 32,
+          "label": "MAX"
+        }
+      ],
       "notes": [
-        "Добавлено по публичной CLI-таблице VTx Tables; если нужна полная dual-band раскладка, сверить по оригинальному мануалу конкретной ревизии."
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "rush-1213ghz-vtx-1600mw",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 1.2/1.3GHz VTX 1600mW",
+      "variant": "1.2GHz / 9 channels",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-1600mw",
+      "source_note": "slug=rush-12-13ghz-vtx-1600mw, version=1.2",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-1600mw",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1360, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 1600,
+          "label": "1.6"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "rush-1213ghz-4w-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 1.2/1.3GHz 4W VTX",
+      "variant": "1.2/1.3GHz / 8CH",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-4w-vtx",
+      "source_note": "slug=rush-12-13ghz-vtx-4w-vtx, version=1.2",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-4w-vtx",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1200, 1220, 1240, 1258, 1280, 1300, 1320, 1340]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 800,
+          "label": "800"
+        },
+        {
+          "value": 2000,
+          "label": "2W"
+        },
+        {
+          "value": 4000,
+          "label": "4W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "rush-33ghz-2w-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 3.3GHz 2W VTX",
+      "variant": "3.3GHz / 8CH",
+      "band_family": "3.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/rush-33ghz-2w-vtx",
+      "source_note": "slug=rush-33ghz-2w-vtx, version=3.3",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-33ghz-2w-vtx",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [3330, 3350, 3370, 3390, 3410, 3430, 3450, 3470]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1W"
+        },
+        {
+          "value": 2000,
+          "label": "2W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "rush-33ghz-4w-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 3.3GHz 4W VTX",
+      "variant": "3.3GHz A/B / 16CH",
+      "band_family": "3.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/rush-33ghz-4w-vtx",
+      "source_note": "slug=rush-33ghz-4w-vtx, version=3.3",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-33ghz-4w-vtx",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [3330, 3350, 3370, 3390, 3410, 3430, 3450, 3470]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [3170, 3190, 3210, 3230, 3250, 3270, 3290, 3310]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1W"
+        },
+        {
+          "value": 4000,
+          "label": "4W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "rushfpv-25w-vtx-dual-band",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 2.5W VTX Dual-Band",
+      "variant": "4.9-5.8GHz / 56CH",
+      "band_family": "4.9-5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-trump",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/rushfpv-25w-vtx-dual-band",
+      "source_note": "slug=rushfpv-25w-vtx-dual-band, version=4.9-5.8",
+      "source_image_url": "https://vtx-tables.vercel.app/rushfpv-25w-vtx-dual-band",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        },
+        {
+          "name": "BAND_X",
+          "letter": "X",
+          "factory": false,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1W"
+        },
+        {
+          "value": 2500,
+          "label": "2W5"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
       ]
     },
     {
@@ -4240,6 +4448,2500 @@
       ],
       "powerlevels": [],
       "notes": ["Полевой справочник для быстрого поиска VRX; сверять с конкретным приемником."]
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-4w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "4W",
+      "band_family": "4.9/5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_note": "slug=akk-alpha-49-58ghz-vtx, version=4W",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "1W"
+        },
+        {
+          "value": 2,
+          "label": "2W"
+        },
+        {
+          "value": 3,
+          "label": "3W"
+        },
+        {
+          "value": 4,
+          "label": "4W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-5w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "5W",
+      "band_family": "4.9/5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_note": "slug=akk-alpha-49-58ghz-vtx, version=5W",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "1W"
+        },
+        {
+          "value": 2,
+          "label": "2W"
+        },
+        {
+          "value": 3,
+          "label": "3W"
+        },
+        {
+          "value": 4,
+          "label": "5W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-8w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "8W",
+      "band_family": "4.9/5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_note": "slug=akk-alpha-49-58ghz-vtx, version=8W",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "1W"
+        },
+        {
+          "value": 2,
+          "label": "3W"
+        },
+        {
+          "value": 3,
+          "label": "5W"
+        },
+        {
+          "value": 4,
+          "label": "8W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-10w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "10W",
+      "band_family": "4.9/5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_note": "slug=akk-alpha-49-58ghz-vtx, version=10W",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "1W"
+        },
+        {
+          "value": 1,
+          "label": "3W"
+        },
+        {
+          "value": 2,
+          "label": "5W"
+        },
+        {
+          "value": 3,
+          "label": "7W"
+        },
+        {
+          "value": 4,
+          "label": "10W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-ultra-long-range-58",
+      "manufacturer": "AKK",
+      "model": "AKK Ultra Long Range",
+      "variant": "5.8GHz / 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+      "source_note": "slug=akk-ultra-long-range, version=5.8",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 0, 5885, 5905, 0, 0]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "250"
+        },
+        {
+          "value": 1,
+          "label": "500"
+        },
+        {
+          "value": 2,
+          "label": "1W"
+        },
+        {
+          "value": 3,
+          "label": "2W"
+        },
+        {
+          "value": 4,
+          "label": "3W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-ultra-long-range-49-58",
+      "manufacturer": "AKK",
+      "model": "AKK Ultra Long Range",
+      "variant": "4.9-5.8GHz / 64CH",
+      "band_family": "4.9-5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+      "source_note": "slug=akk-ultra-long-range, version=4.9-5.8",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "250"
+        },
+        {
+          "value": 2,
+          "label": "500"
+        },
+        {
+          "value": 3,
+          "label": "1W"
+        },
+        {
+          "value": 4,
+          "label": "2W"
+        },
+        {
+          "value": 5,
+          "label": "3W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-tx5000ac-ultra-long-range-5w-49-60",
+      "manufacturer": "AKK",
+      "model": "TX5000AC AKK Ultra Long Range 5W",
+      "variant": "4.9-6.0GHz / 96CH",
+      "band_family": "4.9-6.0 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/tx5000ac-akk-ultra-long-range-5w",
+      "source_note": "slug=tx5000ac-akk-ultra-long-range-5w, version=4.9-6.0",
+      "source_image_url": "https://vtx-tables.vercel.app/tx5000ac-akk-ultra-long-range-5w",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5129, 5159, 5189, 5219, 5249, 5279, 5309, 5339]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [4900, 4940, 4921, 4958, 4995, 5032, 5069, 5099]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5960, 5980, 6000, 6020, 6030, 6040, 6050, 6060]
+        },
+        {
+          "name": "CUSTOM_O",
+          "letter": "O",
+          "factory": true,
+          "frequencies": [5865, 5845, 5825, 5802, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "CUSTOM_H",
+          "letter": "H",
+          "factory": true,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "CUSTOM_T",
+          "letter": "T",
+          "factory": true,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "CUSTOM_n",
+          "letter": "n",
+          "factory": true,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "250"
+        },
+        {
+          "value": 2,
+          "label": "500"
+        },
+        {
+          "value": 3,
+          "label": "1W"
+        },
+        {
+          "value": 4,
+          "label": "3W"
+        },
+        {
+          "value": 5,
+          "label": "5W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "akk-tx8000ac-ultra-long-range-8w-49-58",
+      "manufacturer": "AKK",
+      "model": "TX8000AC AKK Ultra Long Range 8W",
+      "variant": "4.9-5.8GHz / 64CH",
+      "band_family": "4.9-5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / smart-audio",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/tx8000ac-akk-ultra-long-range-8w",
+      "source_note": "slug=tx8000ac-akk-ultra-long-range-8w, version=4.9-5.8",
+      "source_image_url": "https://vtx-tables.vercel.app/tx8000ac-akk-ultra-long-range-8w",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": true,
+          "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": true,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": true,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": true,
+          "frequencies": [5129, 5159, 5189, 5219, 5249, 5279, 5309, 5339]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": true,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        },
+        {
+          "name": "CUSTOM_P",
+          "letter": "P",
+          "factory": true,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "CUSTOM_L",
+          "letter": "L",
+          "factory": true,
+          "frequencies": [4900, 4940, 4921, 4958, 4995, 5032, 5069, 5099]
+        },
+        {
+          "name": "CUSTOM_U",
+          "letter": "U",
+          "factory": true,
+          "frequencies": [5960, 5980, 6000, 6020, 6030, 6040, 6050, 6060]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 0,
+          "label": "25"
+        },
+        {
+          "value": 1,
+          "label": "1W"
+        },
+        {
+          "value": 2,
+          "label": "3W"
+        },
+        {
+          "value": 3,
+          "label": "5W"
+        },
+        {
+          "value": 4,
+          "label": "8W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-extreme-v1-vtxtables-58",
+      "manufacturer": "Foxeer",
+      "model": "Foxeer Reaper Extreme",
+      "variant": "5.8 v1 / 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+      "source_note": "slug=foxeer-reaper-extreme, version=5.8 v1",
+      "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "200"
+        },
+        {
+          "value": 200,
+          "label": "500"
+        },
+        {
+          "value": 400,
+          "label": "1.5"
+        },
+        {
+          "value": 600,
+          "label": "2.5"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-extreme-v2-vtxtables-58",
+      "manufacturer": "Foxeer",
+      "model": "Foxeer Reaper Extreme",
+      "variant": "5.8 v2 / 64CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+      "source_note": "slug=foxeer-reaper-extreme, version=5.8 v2",
+      "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "BAND_F",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "BAND_R",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND_H",
+          "letter": "H",
+          "factory": false,
+          "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+        },
+        {
+          "name": "BAND_L",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+        },
+        {
+          "name": "BAND_U",
+          "letter": "U",
+          "factory": false,
+          "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 100,
+          "label": "200"
+        },
+        {
+          "value": 200,
+          "label": "500"
+        },
+        {
+          "value": 400,
+          "label": "1.5"
+        },
+        {
+          "value": 600,
+          "label": "2.5"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "foxeer-reaper-infinity-5w-58-40ch-vtxtables",
+      "manufacturer": "Foxeer",
+      "model": "Foxeer Reaper Infinity VTX 5W 5.8GHz 40CH",
+      "variant": "5.8GHz / 40CH",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "VTx Tables / irc-tramp",
+      "source_title": "VTx Tables API",
+      "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch",
+      "source_note": "slug=foxeer-reaper-infinity-vtx-5w-58ghz-40ch, version=5.8",
+      "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BOSCAM_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "FATSHARK",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "50"
+        },
+        {
+          "value": 100,
+          "label": "500"
+        },
+        {
+          "value": 200,
+          "label": "1W"
+        },
+        {
+          "value": 400,
+          "label": "2.5"
+        },
+        {
+          "value": 600,
+          "label": "5W"
+        }
+      ],
+      "notes": [
+        "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+      ]
+    },
+    {
+      "id": "rush-drive-1g3vtx-1-6w-old-version",
+      "manufacturer": "RUSHFPV",
+      "model": "1G3VTX 1.6W old version",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1vBxQjexDoMaL7aJ9ZGjPMlL9Mqrii5Hm/view",
+      "source_note": "filename=1G3VTX 1.6W old version .json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [1080, 1120, 1160, 1200, 1240, 1258, 1280, 1320]
+        },
+        {
+          "name": "B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1360, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 1600,
+          "label": "1.6"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-1g3vtx-4w",
+      "manufacturer": "RUSHFPV",
+      "model": "1G3VTX 4W",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1T0v7cxaHWQOWTAt3R_5PfklaQ6vY8xlO/view",
+      "source_note": "filename=1G3VTX 4W.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1200, 1220, 1240, 1258, 1280, 1300, 1320, 1340]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 800,
+          "label": "800"
+        },
+        {
+          "value": 2000,
+          "label": "2W"
+        },
+        {
+          "value": 4000,
+          "label": "4W"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-1g3-1w6-vtx-new-version",
+      "manufacturer": "RUSHFPV",
+      "model": "1G3 1W6 VTX new version",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1gGm5VRTgoLEowNIrd8rSEbf-Lr_owB_n/view",
+      "source_note": "filename=1G3_1W6_VTX_new version .json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BOSCAM_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [1080, 1120, 1160, 1200, 1240, 1280, 1320, 1360]
+        },
+        {
+          "name": "BOSCAM_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1258, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 500,
+          "label": "500"
+        },
+        {
+          "value": 800,
+          "label": "800"
+        },
+        {
+          "value": 1600,
+          "label": "MAX"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-4g9-5g8-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "4G9 5G8 VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "4.9-5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1n1AToYUTkG7ErdaP4sjNCKghArHRf3mB/view",
+      "source_note": "filename=4G9 5G8 VTX.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND-A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND-B",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND-E",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "BAND-F",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "BAND-R",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "BAND-L",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        },
+        {
+          "name": "BAND-X",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "PA1"
+        },
+        {
+          "value": 200,
+          "label": "PA2"
+        },
+        {
+          "value": 1000,
+          "label": "PA3"
+        },
+        {
+          "value": 2500,
+          "label": "PA4"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-max-solo-x-band-4-9g-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "MAX SOLO X BAND 4.9G VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "4.9 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/10kHFTK1MQJHF28mgbOxkeXWN_hDbtNM0/view",
+      "source_note": "filename=MAX  SOLO X-BAND 4.9G VTX.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 500,
+          "label": "500"
+        },
+        {
+          "value": 1000,
+          "label": "1W"
+        },
+        {
+          "value": 2500,
+          "label": "2W5"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-1g3-3g3vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 1g3 3g3vtx",
+      "variant": "Google Drive JSON",
+      "band_family": "4.9 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1ToZmpAyZvhXlVQxNT7DR7YAKPbk5HPQ1/view",
+      "source_note": "filename=RUSH-1g3-3g3vtx.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND-A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [3330, 3350, 3370, 3390, 3410, 3430, 3450, 3470]
+        },
+        {
+          "name": "BAND-B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [3170, 3190, 3210, 3230, 3250, 3270, 3290, 3310]
+        },
+        {
+          "name": "BAND-E",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [1080, 1120, 1160, 1200, 1240, 1280, 1320, 1360]
+        },
+        {
+          "name": "BAND-F",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1200, 1220, 1240, 1258, 1280, 1300, 1320, 1340]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "PA1"
+        },
+        {
+          "value": 200,
+          "label": "PA2"
+        },
+        {
+          "value": 1000,
+          "label": "PA3"
+        },
+        {
+          "value": 2500,
+          "label": "PA4"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rushfpv-1g3-4w-newest-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 1G3 4W newest VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1OlZQa872briu4sWpYaipSvKAEGEJ9n1P/view",
+      "source_note": "filename=RUSHFPV-1G3_4W_newest VTX.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND-A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [1080, 1120, 1160, 1200, 1240, 1280, 1320, 1360]
+        },
+        {
+          "name": "BAND-B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [1200, 1220, 1240, 1258, 1280, 1300, 1320, 1340]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1"
+        },
+        {
+          "value": 4000,
+          "label": "4"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rushfpv-3g3-band-b-1",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 3G3 BADN B(1)",
+      "variant": "Google Drive JSON",
+      "band_family": "3.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/10SO9z8UtlE1SJJuPDCw-ApH8tE_k6vOf/view",
+      "source_note": "filename=RUSHFPV_3G3_BADN-B(1).json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND-B",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [3170, 3190, 3210, 3230, 3250, 3270, 3290, 3310]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1"
+        },
+        {
+          "value": 2000,
+          "label": "2"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rushfpv-3g3-band-a-2",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 3G3 BAND A(2)",
+      "variant": "Google Drive JSON",
+      "band_family": "3.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1gtdG6M4Ch7h9KkRNm58gVOm5eFJbx2eE/view",
+      "source_note": "filename=RUSHFPV_3G3_BAND-A(2).json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND-A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [3330, 3350, 3370, 3390, 3410, 3430, 3450, 3470]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1"
+        },
+        {
+          "value": 2000,
+          "label": "2"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-3g3-4w-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 3G3 4W VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "3.3 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1j-eWJna4mnZCz_-KJe3fE_Ld6GIWx8o0/view",
+      "source_note": "filename=RUSH_3G3_4W_VTX.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND-A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [3330, 3350, 3370, 3390, 3410, 3430, 3450, 3470]
+        },
+        {
+          "name": "BAND-B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [3170, 3190, 3210, 3230, 3250, 3270, 3290, 3310]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25"
+        },
+        {
+          "value": 200,
+          "label": "200"
+        },
+        {
+          "value": 1000,
+          "label": "1"
+        },
+        {
+          "value": 4000,
+          "label": "4"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-race2-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH RACE2 SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1QgVYc6U8b6X1gdrhrfMToXMZt9-4Fgy0/view",
+      "source_note": "filename=RUSH_RACE2_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-race2-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH RACE2 SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1DyhQSbnRprXd53Q_nNwjRybh5w28AZGE/view",
+      "source_note": "filename=RUSH_RACE2_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 26,
+          "label": "400"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-race-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK RACE SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1WYKxtsREsLg1yloCTfZtHiWRULjZJDzH/view",
+      "source_note": "filename=RUSH_TANK_RACE_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 17,
+          "label": "50"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-race-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK RACE SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1xZQrFLcAAfU0cFWuoU2my-o-B_Po0cb4/view",
+      "source_note": "filename=RUSH_TANK_RACE_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 17,
+          "label": "50"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-ii-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE II SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/15BDpbGOVCLWUPNw4mUXcEkoCPiPaPQ7m/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_II_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-ii-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE II SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1kPKAVDcCnHYdVzdYFs0QlkU4oPclrnGF/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_II_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-mini-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE MINI SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1cripCDBagCVdaqGLynaTl7srtiq_jsOB/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_MINI_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-mini-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE MINI SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1hHRbCXANnV5SoaRMF7GPTMS7MDgb_Niz/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_MINI_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-plus-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE PLUS SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1zqBhxQWLQEZy1gKA4Y1bjwyu45-RZJjL/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_PLUS_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-plus-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE PLUS SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1A4OTSEpV9JBNHTAYXlRiiAKNa37TM8cc/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_PLUS_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1txR1Ya_1Rh74n5HhsOV2OPT9Xyoi2XXo/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1kAfPKWCsLkp5HnS7HwJT1hl6lpKvERnJ/view",
+      "source_note": "filename=RUSH_TANK_ULTIMATE_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 27,
+          "label": "500"
+        },
+        {
+          "value": 29,
+          "label": "800"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tinytank-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TINYTANK SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/15Bbn3ezDQxGvPoD1H-RP3qcnSmJJExad/view",
+      "source_note": "filename=RUSH_TINYTANK_SA2.1_37CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5665, 5885, 5905, 5905, 5905]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 25,
+          "label": "350"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "rush-drive-rush-tinytank-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TINYTANK SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "kind": "vtx-table",
+      "status": "сообщество",
+      "protocol": "Betaflight VTX table JSON",
+      "source_title": "RUSHFPV VTX Table Google Drive folder",
+      "source_url": "https://drive.google.com/file/d/1NZ1_RVJVpcG5B4QHmQ4iyLdvNM4RHiBW/view",
+      "source_note": "filename=RUSH_TINYTANK_SA2.1_48CH.json",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "bands": [
+        {
+          "name": "BAND_A",
+          "letter": "A",
+          "factory": false,
+          "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+        },
+        {
+          "name": "BAND_B",
+          "letter": "B",
+          "factory": false,
+          "frequencies": [5733, 5752, 5771, 5790, 5999, 5828, 5847, 5866]
+        },
+        {
+          "name": "BAND_E",
+          "letter": "E",
+          "factory": false,
+          "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+        },
+        {
+          "name": "AIRWAVE",
+          "letter": "F",
+          "factory": false,
+          "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+        },
+        {
+          "name": "RACEBAND",
+          "letter": "R",
+          "factory": false,
+          "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+        },
+        {
+          "name": "LOWRACE",
+          "letter": "L",
+          "factory": false,
+          "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 14,
+          "label": "25"
+        },
+        {
+          "value": 20,
+          "label": "100"
+        },
+        {
+          "value": 23,
+          "label": "200"
+        },
+        {
+          "value": 25,
+          "label": "350"
+        }
+      ],
+      "notes": [
+        "Импортировано из публичной Google Drive папки RUSHFPV VTX Table; перед применением сверять с конкретной ревизией и региональными ограничениями."
+      ]
+    },
+    {
+      "id": "akk-alpha-16w-96ch-range",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 16 VTX",
+      "variant": "4.9-6.0GHz / 96CH / range only",
+      "band_family": "4.9-6.0 GHz analog",
+      "kind": "range",
+      "status": "требует проверки",
+      "protocol": "SmartAudio / 96CH product page",
+      "source_title": "AKK Alpha 16 VTX product page",
+      "source_url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+      "source_image_url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+      "range_only": true,
+      "ranges_mhz": [
+        {
+          "name": "4.9-6.0 GHz 96CH",
+          "start": 4900,
+          "end": 6000,
+          "note": "Страница подтверждает 96CH и диапазон 4.9-6.0 GHz, но не публикует полную раскладку каналов."
+        }
+      ],
+      "powerlevels": [
+        {
+          "value": 25,
+          "label": "25mW"
+        },
+        {
+          "value": 1000,
+          "label": "1W"
+        },
+        {
+          "value": 3000,
+          "label": "3W"
+        },
+        {
+          "value": 5000,
+          "label": "5W"
+        },
+        {
+          "value": 8000,
+          "label": "8W"
+        },
+        {
+          "value": 16000,
+          "label": "16W"
+        }
+      ],
+      "notes": [
+        "Добавлено как диапазон, а не готовая таблица частот: источник подтверждает модель, диапазон и 96CH, но не даёт все 96 частот по каналам."
+      ]
     }
   ]
 }

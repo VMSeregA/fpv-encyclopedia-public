@@ -1,6 +1,6 @@
 {
   "updated": "2026-06-28",
-  "table_count": 69,
+  "table_count": 105,
   "manufacturers": [
     "AKK",
     "BetaFPV",
@@ -24,6 +24,66 @@
     "iFlight"
   ],
   "tables": [
+    {
+      "id": "akk-alpha-16w-96ch-range",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 16 VTX",
+      "variant": "4.9-6.0GHz / 96CH / range only",
+      "band_family": "4.9-6.0 GHz analog",
+      "status": "требует проверки",
+      "json": "/static/downloads/vtx-tables/json/akk-alpha-16w-96ch-range.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-alpha-16w-96ch-range.csv",
+      "source_url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+      "source_image_url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html"
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-10w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "10W",
+      "band_family": "4.9/5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-alpha-49-58ghz-vtx-10w.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-alpha-49-58ghz-vtx-10w.csv",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx"
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-4w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "4W",
+      "band_family": "4.9/5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-alpha-49-58ghz-vtx-4w.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-alpha-49-58ghz-vtx-4w.csv",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx"
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-5w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "5W",
+      "band_family": "4.9/5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-alpha-49-58ghz-vtx-5w.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-alpha-49-58ghz-vtx-5w.csv",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx"
+    },
+    {
+      "id": "akk-alpha-49-58ghz-vtx-8w",
+      "manufacturer": "AKK",
+      "model": "AKK Alpha 4.9/5.8GHz VTX",
+      "variant": "8W",
+      "band_family": "4.9/5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-alpha-49-58ghz-vtx-8w.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-alpha-49-58ghz-vtx-8w.csv",
+      "source_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-alpha-49-58ghz-vtx"
+    },
     {
       "id": "akk-fx2-dominator-fcc",
       "manufacturer": "AKK",
@@ -121,6 +181,30 @@
       "source_image_url": null
     },
     {
+      "id": "akk-ultra-long-range-49-58",
+      "manufacturer": "AKK",
+      "model": "AKK Ultra Long Range",
+      "variant": "4.9-5.8GHz / 64CH",
+      "band_family": "4.9-5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-ultra-long-range-49-58.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-ultra-long-range-49-58.csv",
+      "source_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-ultra-long-range"
+    },
+    {
+      "id": "akk-ultra-long-range-58",
+      "manufacturer": "AKK",
+      "model": "AKK Ultra Long Range",
+      "variant": "5.8GHz / 40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-ultra-long-range-58.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-ultra-long-range-58.csv",
+      "source_url": "https://vtx-tables.vercel.app/akk-ultra-long-range",
+      "source_image_url": "https://vtx-tables.vercel.app/akk-ultra-long-range"
+    },
+    {
       "id": "akk-x2-ultimate-international-fcc",
       "manufacturer": "AKK",
       "model": "AKK X2 Ultimate International",
@@ -143,6 +227,30 @@
       "csv": "/static/downloads/vtx-tables/csv/akk-x2-ultimate-international-global.csv",
       "source_url": "https://github.com/Jackjan4/betaflight-vtx-tables/blob/master/tables/akk/akk-x2-ultimate-international-global.json",
       "source_image_url": null
+    },
+    {
+      "id": "akk-tx5000ac-ultra-long-range-5w-49-60",
+      "manufacturer": "AKK",
+      "model": "TX5000AC AKK Ultra Long Range 5W",
+      "variant": "4.9-6.0GHz / 96CH",
+      "band_family": "4.9-6.0 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-tx5000ac-ultra-long-range-5w-49-60.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-tx5000ac-ultra-long-range-5w-49-60.csv",
+      "source_url": "https://vtx-tables.vercel.app/tx5000ac-akk-ultra-long-range-5w",
+      "source_image_url": "https://vtx-tables.vercel.app/tx5000ac-akk-ultra-long-range-5w"
+    },
+    {
+      "id": "akk-tx8000ac-ultra-long-range-8w-49-58",
+      "manufacturer": "AKK",
+      "model": "TX8000AC AKK Ultra Long Range 8W",
+      "variant": "4.9-5.8GHz / 64CH",
+      "band_family": "4.9-5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/akk-tx8000ac-ultra-long-range-8w-49-58.json",
+      "csv": "/static/downloads/vtx-tables/csv/akk-tx8000ac-ultra-long-range-8w-49-58.csv",
+      "source_url": "https://vtx-tables.vercel.app/tx8000ac-akk-ultra-long-range-8w",
+      "source_image_url": "https://vtx-tables.vercel.app/tx8000ac-akk-ultra-long-range-8w"
     },
     {
       "id": "betafpv-m03-v1.0-global",
@@ -361,6 +469,42 @@
       "source_image_url": "https://flywoo.tawk.help/article/goku-vtx625-v2"
     },
     {
+      "id": "foxeer-reaper-extreme-v1-vtxtables-58",
+      "manufacturer": "Foxeer",
+      "model": "Foxeer Reaper Extreme",
+      "variant": "5.8 v1 / 40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-extreme-v1-vtxtables-58.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-v1-vtxtables-58.csv",
+      "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+      "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme"
+    },
+    {
+      "id": "foxeer-reaper-extreme-v2-vtxtables-58",
+      "manufacturer": "Foxeer",
+      "model": "Foxeer Reaper Extreme",
+      "variant": "5.8 v2 / 64CH",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-extreme-v2-vtxtables-58.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-v2-vtxtables-58.csv",
+      "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+      "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme"
+    },
+    {
+      "id": "foxeer-reaper-infinity-5w-58-40ch-vtxtables",
+      "manufacturer": "Foxeer",
+      "model": "Foxeer Reaper Infinity VTX 5W 5.8GHz 40CH",
+      "variant": "5.8GHz / 40CH",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/foxeer-reaper-infinity-5w-58-40ch-vtxtables.json",
+      "csv": "/static/downloads/vtx-tables/csv/foxeer-reaper-infinity-5w-58-40ch-vtxtables.csv",
+      "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch",
+      "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch"
+    },
+    {
       "id": "foxeer-reaper-58ghz-reference",
       "manufacturer": "Foxeer",
       "model": "Reaper / Reaper Extreme 5.8G reference grid",
@@ -493,76 +637,364 @@
       "source_image_url": null
     },
     {
+      "id": "rush-drive-1g3-1w6-vtx-new-version",
+      "manufacturer": "RUSHFPV",
+      "model": "1G3 1W6 VTX new version",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-1g3-1w6-vtx-new-version.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-1g3-1w6-vtx-new-version.csv",
+      "source_url": "https://drive.google.com/file/d/1gGm5VRTgoLEowNIrd8rSEbf-Lr_owB_n/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-1g3vtx-1-6w-old-version",
+      "manufacturer": "RUSHFPV",
+      "model": "1G3VTX 1.6W old version",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-1g3vtx-1-6w-old-version.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-1g3vtx-1-6w-old-version.csv",
+      "source_url": "https://drive.google.com/file/d/1vBxQjexDoMaL7aJ9ZGjPMlL9Mqrii5Hm/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-1g3vtx-4w",
+      "manufacturer": "RUSHFPV",
+      "model": "1G3VTX 4W",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-1g3vtx-4w.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-1g3vtx-4w.csv",
+      "source_url": "https://drive.google.com/file/d/1T0v7cxaHWQOWTAt3R_5PfklaQ6vY8xlO/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-4g9-5g8-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "4G9 5G8 VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "4.9-5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-4g9-5g8-vtx.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-4g9-5g8-vtx.csv",
+      "source_url": "https://drive.google.com/file/d/1n1AToYUTkG7ErdaP4sjNCKghArHRf3mB/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-max-solo-x-band-4-9g-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "MAX SOLO X BAND 4.9G VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "4.9 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-max-solo-x-band-4-9g-vtx.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-max-solo-x-band-4-9g-vtx.csv",
+      "source_url": "https://drive.google.com/file/d/10kHFTK1MQJHF28mgbOxkeXWN_hDbtNM0/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
       "id": "rush-1213ghz-4w-vtx",
       "manufacturer": "RUSHFPV",
       "model": "RUSH 1.2/1.3GHz 4W VTX",
-      "variant": "1.2/1.3GHz Raceband / 8CH",
+      "variant": "1.2/1.3GHz / 8CH",
       "band_family": "1.2/1.3 GHz analog",
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-1213ghz-4w-vtx.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-1213ghz-4w-vtx.csv",
-      "source_url": "https://vtx-tables.vercel.app/rush-1213ghz-4w-vtx",
-      "source_image_url": "https://rushfpv.net/pages/download-center"
+      "source_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-4w-vtx",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-4w-vtx"
     },
     {
       "id": "rush-1213ghz-vtx-1600mw",
       "manufacturer": "RUSHFPV",
       "model": "RUSH 1.2/1.3GHz VTX 1600mW",
-      "variant": "1.2/1.3GHz Raceband / 8CH",
+      "variant": "1.2GHz / 9 channels",
       "band_family": "1.2/1.3 GHz analog",
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-1213ghz-vtx-1600mw.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-1213ghz-vtx-1600mw.csv",
-      "source_url": "https://vtx-tables.vercel.app/rush-1213ghz-vtx-1600mw",
-      "source_image_url": "https://rushfpv.net/pages/download-center"
+      "source_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-1600mw",
+      "source_image_url": "https://vtx-tables.vercel.app/rush-12-13ghz-vtx-1600mw"
+    },
+    {
+      "id": "rush-drive-rush-1g3-3g3vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 1g3 3g3vtx",
+      "variant": "Google Drive JSON",
+      "band_family": "4.9 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-1g3-3g3vtx.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-1g3-3g3vtx.csv",
+      "source_url": "https://drive.google.com/file/d/1ToZmpAyZvhXlVQxNT7DR7YAKPbk5HPQ1/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
     },
     {
       "id": "rush-33ghz-2w-vtx",
       "manufacturer": "RUSHFPV",
       "model": "RUSH 3.3GHz 2W VTX",
-      "variant": "3.3GHz A band / 8CH",
+      "variant": "3.3GHz / 8CH",
       "band_family": "3.3 GHz analog",
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-33ghz-2w-vtx.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-33ghz-2w-vtx.csv",
       "source_url": "https://vtx-tables.vercel.app/rush-33ghz-2w-vtx",
-      "source_image_url": "https://rushfpv.net/pages/download-center"
+      "source_image_url": "https://vtx-tables.vercel.app/rush-33ghz-2w-vtx"
     },
     {
       "id": "rush-33ghz-4w-vtx",
       "manufacturer": "RUSHFPV",
       "model": "RUSH 3.3GHz 4W VTX",
-      "variant": "3.3GHz A band / 8CH",
+      "variant": "3.3GHz A/B / 16CH",
       "band_family": "3.3 GHz analog",
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-33ghz-4w-vtx.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-33ghz-4w-vtx.csv",
       "source_url": "https://vtx-tables.vercel.app/rush-33ghz-4w-vtx",
-      "source_image_url": "https://rushfpv.net/pages/download-center"
+      "source_image_url": "https://vtx-tables.vercel.app/rush-33ghz-4w-vtx"
+    },
+    {
+      "id": "rush-drive-rush-3g3-4w-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH 3G3 4W VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "3.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-3g3-4w-vtx.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-3g3-4w-vtx.csv",
+      "source_url": "https://drive.google.com/file/d/1j-eWJna4mnZCz_-KJe3fE_Ld6GIWx8o0/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-race2-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH RACE2 SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-race2-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-race2-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/1QgVYc6U8b6X1gdrhrfMToXMZt9-4Fgy0/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-race2-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH RACE2 SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-race2-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-race2-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1DyhQSbnRprXd53Q_nNwjRybh5w28AZGE/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-race-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK RACE SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-race-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-race-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/1WYKxtsREsLg1yloCTfZtHiWRULjZJDzH/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-race-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK RACE SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-race-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-race-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1xZQrFLcAAfU0cFWuoU2my-o-B_Po0cb4/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-ii-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE II SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-ii-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-ii-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/15BDpbGOVCLWUPNw4mUXcEkoCPiPaPQ7m/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-ii-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE II SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-ii-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-ii-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1kPKAVDcCnHYdVzdYFs0QlkU4oPclrnGF/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-mini-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE MINI SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-mini-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-mini-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/1cripCDBagCVdaqGLynaTl7srtiq_jsOB/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-mini-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE MINI SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-mini-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-mini-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1hHRbCXANnV5SoaRMF7GPTMS7MDgb_Niz/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-plus-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE PLUS SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-plus-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-plus-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/1zqBhxQWLQEZy1gKA4Y1bjwyu45-RZJjL/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-plus-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE PLUS SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-plus-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-plus-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1A4OTSEpV9JBNHTAYXlRiiAKNa37TM8cc/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/1txR1Ya_1Rh74n5HhsOV2OPT9Xyoi2XXo/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tank-ultimate-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TANK ULTIMATE SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tank-ultimate-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tank-ultimate-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1kAfPKWCsLkp5HnS7HwJT1hl6lpKvERnJ/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tinytank-sa21-37ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TINYTANK SA2.1 37CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tinytank-sa21-37ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tinytank-sa21-37ch.csv",
+      "source_url": "https://drive.google.com/file/d/15Bbn3ezDQxGvPoD1H-RP3qcnSmJJExad/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rush-tinytank-sa21-48ch",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSH TINYTANK SA2.1 48CH",
+      "variant": "Google Drive JSON",
+      "band_family": "5.8 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rush-tinytank-sa21-48ch.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rush-tinytank-sa21-48ch.csv",
+      "source_url": "https://drive.google.com/file/d/1NZ1_RVJVpcG5B4QHmQ4iyLdvNM4RHiBW/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
     },
     {
       "id": "rush-tank-solo-58g",
       "manufacturer": "RUSHFPV",
       "model": "RUSH Tank Solo 5.8G",
-      "variant": "Raceband / 8CH",
+      "variant": "5.8GHz / 48CH",
       "band_family": "5.8 GHz analog",
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rush-tank-solo-58g.json",
       "csv": "/static/downloads/vtx-tables/csv/rush-tank-solo-58g.csv",
       "source_url": "https://vtx-tables.vercel.app/rush-tank-solo-58g",
-      "source_image_url": "https://rushfpv.net/pages/download-center"
+      "source_image_url": "https://vtx-tables.vercel.app/rush-tank-solo-58g"
+    },
+    {
+      "id": "rush-drive-rushfpv-1g3-4w-newest-vtx",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 1G3 4W newest VTX",
+      "variant": "Google Drive JSON",
+      "band_family": "1.2/1.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rushfpv-1g3-4w-newest-vtx.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rushfpv-1g3-4w-newest-vtx.csv",
+      "source_url": "https://drive.google.com/file/d/1OlZQa872briu4sWpYaipSvKAEGEJ9n1P/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
     },
     {
       "id": "rushfpv-25w-vtx-dual-band",
       "manufacturer": "RUSHFPV",
       "model": "RUSHFPV 2.5W VTX Dual-Band",
-      "variant": "LowRace / 8CH",
-      "band_family": "5.3-5.6 GHz analog",
+      "variant": "4.9-5.8GHz / 56CH",
+      "band_family": "4.9-5.8 GHz analog",
       "status": "сообщество",
       "json": "/static/downloads/vtx-tables/json/rushfpv-25w-vtx-dual-band.json",
       "csv": "/static/downloads/vtx-tables/csv/rushfpv-25w-vtx-dual-band.csv",
       "source_url": "https://vtx-tables.vercel.app/rushfpv-25w-vtx-dual-band",
-      "source_image_url": "https://rushfpv.net/pages/download-center"
+      "source_image_url": "https://vtx-tables.vercel.app/rushfpv-25w-vtx-dual-band"
+    },
+    {
+      "id": "rush-drive-rushfpv-3g3-band-b-1",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 3G3 BADN B(1)",
+      "variant": "Google Drive JSON",
+      "band_family": "3.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rushfpv-3g3-band-b-1.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rushfpv-3g3-band-b-1.csv",
+      "source_url": "https://drive.google.com/file/d/10SO9z8UtlE1SJJuPDCw-ApH8tE_k6vOf/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
+    },
+    {
+      "id": "rush-drive-rushfpv-3g3-band-a-2",
+      "manufacturer": "RUSHFPV",
+      "model": "RUSHFPV 3G3 BAND A(2)",
+      "variant": "Google Drive JSON",
+      "band_family": "3.3 GHz analog",
+      "status": "сообщество",
+      "json": "/static/downloads/vtx-tables/json/rush-drive-rushfpv-3g3-band-a-2.json",
+      "csv": "/static/downloads/vtx-tables/csv/rush-drive-rushfpv-3g3-band-a-2.csv",
+      "source_url": "https://drive.google.com/file/d/1gtdG6M4Ch7h9KkRNm58gVOm5eFJbx2eE/view",
+      "source_image_url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl"
     },
     {
       "id": "rush-max-solo-global",
@@ -937,6 +1369,24 @@
       "title": "Foxeer Reaper Extreme V3 2.5W 80CH manual page",
       "url": "https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table",
       "note": "страница мануала Foxeer Reaper Extreme V3 2.5W 80CH с таблицей частот"
+    },
+    {
+      "id": "google-drive-rushfpv-vtx-table-folder",
+      "title": "RUSHFPV VTX Table Google Drive folder",
+      "url": "https://drive.google.com/drive/folders/1tNlJHf3u4hBi9kbhByogJR41M3KvzvMl",
+      "note": "публичная папка RUSHFPV с JSON VTX tables и изображениями SA2.1"
+    },
+    {
+      "id": "vtx-tables-api",
+      "title": "VTx Tables API",
+      "url": "https://vtx-tables.vercel.app/api/list",
+      "note": "публичный каталог CLI vtxtable; данные сверять с конкретной ревизией перед записью"
+    },
+    {
+      "id": "kimpok-akk-alpha-16-product-page",
+      "title": "AKK Alpha 16 VTX product page",
+      "url": "https://www.kimpok.com/sale-52875247-akk-alpha-16-vtx-4-9g-5-8g-25mw-1w-3w-5w-8w-16w-96ch-video-transmitter-supportable-smart-audio.html",
+      "note": "страница поставщика с подтверждением AKK Alpha 16, 4.9-6.0 GHz, 96CH и уровней мощности; полной таблицы каналов на странице нет"
     }
   ]
 }

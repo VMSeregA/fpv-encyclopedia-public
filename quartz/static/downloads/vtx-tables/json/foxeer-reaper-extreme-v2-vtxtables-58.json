@@ -1,0 +1,89 @@
+{
+  "id": "foxeer-reaper-extreme-v2-vtxtables-58",
+  "manufacturer": "Foxeer",
+  "model": "Foxeer Reaper Extreme",
+  "variant": "5.8 v2 / 64CH",
+  "band_family": "5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "VTx Tables / irc-tramp",
+  "source_title": "VTx Tables API",
+  "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+  "source_note": "slug=foxeer-reaper-extreme, version=5.8 v2",
+  "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-extreme",
+  "bands": [
+    {
+      "name": "BAND_A",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BAND_B",
+      "letter": "B",
+      "factory": false,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BAND_E",
+      "letter": "E",
+      "factory": false,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "BAND_F",
+      "letter": "F",
+      "factory": false,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "BAND_R",
+      "letter": "R",
+      "factory": false,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    },
+    {
+      "name": "BAND_H",
+      "letter": "H",
+      "factory": false,
+      "frequencies": [5653, 5693, 5733, 5773, 5813, 5853, 5893, 5933]
+    },
+    {
+      "name": "BAND_L",
+      "letter": "L",
+      "factory": false,
+      "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+    },
+    {
+      "name": "BAND_U",
+      "letter": "U",
+      "factory": false,
+      "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 25,
+      "label": "25"
+    },
+    {
+      "value": 100,
+      "label": "200"
+    },
+    {
+      "value": 200,
+      "label": "500"
+    },
+    {
+      "value": 400,
+      "label": "1.5"
+    },
+    {
+      "value": 600,
+      "label": "2.5"
+    }
+  ],
+  "notes": [
+    "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+  ]
+}

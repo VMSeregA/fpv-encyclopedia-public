@@ -11,15 +11,78 @@ updated: 2026-06-28
 
 # Foxeer
 
-Сеток в разделе: **5**.
+Сеток в разделе: **8**.
 
 | Модель                                      | Вариант                           | Диапазон           | Статус                    | Файлы                                                                                                                                                                                                                                                                                            |
 | ------------------------------------------- | --------------------------------- | ------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Foxeer Reaper Extreme                       | 5.8 v1 / 40CH                     | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-extreme-v1-vtxtables-58.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-v1-vtxtables-58.csv) / [Изображение/мануал сетки](https://vtx-tables.vercel.app/foxeer-reaper-extreme)                                       |
+| Foxeer Reaper Extreme                       | 5.8 v2 / 64CH                     | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-extreme-v2-vtxtables-58.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-v2-vtxtables-58.csv) / [Изображение/мануал сетки](https://vtx-tables.vercel.app/foxeer-reaper-extreme)                                       |
+| Foxeer Reaper Infinity VTX 5W 5.8GHz 40CH   | 5.8GHz / 40CH                     | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-infinity-5w-58-40ch-vtxtables.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-infinity-5w-58-40ch-vtxtables.csv) / [Изображение/мануал сетки](https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch)        |
 | Reaper / Reaper Extreme 5.8G reference grid | A/B/E/F/R 40CH                    | 5.8 GHz analog     | требует проверки          | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-58ghz-reference.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-58ghz-reference.csv)                                                                                                                                         |
 | Reaper Extreme 3W                           | Betaflight 64CH / A-B-E-F-R-H-O-U | 4.9-6.0 GHz analog | официальный источник      | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-extreme-3w-betaflight-64ch.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-3w-betaflight-64ch.csv) / [Изображение/мануал сетки](https://www.foxeer.com/foxeer-4-9-6g-reaper-extreme-3w-80ch-vtx-g-576)               |
 | Reaper Extreme V3 2.5W                      | 80CH / A-B-E-F-R-H-L-U-O-X        | 4.9-6.0 GHz analog | мануал / требует проверки | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-extreme-v3-25w-80ch.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-extreme-v3-25w-80ch.csv) / [Изображение/мануал сетки](https://device.report/manuals/foxeer-reaper-extreme-v3-2-5w-80ch-vtx-manual-specs-frequency-table) |
 | Reaper Infinity V2 5W                       | 80CH / A-B-E-F-R-H-L-U-O-X        | 4.9-6.0 GHz analog | официальный источник      | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-infinity-v2-5w-80ch.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-infinity-v2-5w-80ch.csv) / [Изображение/мануал сетки](https://www.foxeer.com/foxeer-4-9g-6g-reaper-infinity-v2-5w-80ch-vtx-g-588)                        |
 | Reaper Nano V2 5.8G 350mW                   | visible 5-band table              | 5.8 GHz analog     | официальный источник      | [JSON](/static/downloads/vtx-tables/json/foxeer-reaper-nano-v2-58g-5band-reference.json) / [CSV](/static/downloads/vtx-tables/csv/foxeer-reaper-nano-v2-58g-5band-reference.csv) / [Изображение/мануал сетки](https://www.foxeer.com/foxeer-reaper-nano-v2-vtx-5-8g-72ch-350mw-tramp-g-583)      |
+
+## Foxeer Reaper Extreme
+
+- Вариант: **5.8 v1 / 40CH**
+- Диапазон: **5.8 GHz analog**
+- Статус: **сообщество**
+- Протокол/формат: **VTx Tables / irc-tramp**
+- Источник: [VTx Tables API](https://vtx-tables.vercel.app/foxeer-reaper-extreme)
+- Изображение/мануал сетки: [открыть источник](https://vtx-tables.vercel.app/foxeer-reaper-extreme)
+- Уровни мощности: 25, 200, 500, 1.5, 2.5
+- Примечание: Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX.
+
+| Сетка    | Буква |  CH1 |  CH2 |  CH3 |  CH4 |  CH5 |  CH6 |  CH7 |  CH8 |
+| -------- | ----- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| BOSCAM_A | A     | 5865 | 5845 | 5825 | 5805 | 5785 | 5765 | 5745 | 5725 |
+| BOSCAM_B | B     | 5733 | 5752 | 5771 | 5790 | 5809 | 5828 | 5847 | 5866 |
+| BOSCAM_E | E     | 5705 | 5685 | 5665 | 5645 | 5885 | 5905 | 5925 | 5945 |
+| FATSHARK | F     | 5740 | 5760 | 5780 | 5800 | 5820 | 5840 | 5860 | 5880 |
+| RACEBAND | R     | 5658 | 5695 | 5732 | 5769 | 5806 | 5843 | 5880 | 5917 |
+
+## Foxeer Reaper Extreme
+
+- Вариант: **5.8 v2 / 64CH**
+- Диапазон: **5.8 GHz analog**
+- Статус: **сообщество**
+- Протокол/формат: **VTx Tables / irc-tramp**
+- Источник: [VTx Tables API](https://vtx-tables.vercel.app/foxeer-reaper-extreme)
+- Изображение/мануал сетки: [открыть источник](https://vtx-tables.vercel.app/foxeer-reaper-extreme)
+- Уровни мощности: 25, 200, 500, 1.5, 2.5
+- Примечание: Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX.
+
+| Сетка  | Буква |  CH1 |  CH2 |  CH3 |  CH4 |  CH5 |  CH6 |  CH7 |  CH8 |
+| ------ | ----- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| BAND_A | A     | 5865 | 5845 | 5825 | 5805 | 5785 | 5765 | 5745 | 5725 |
+| BAND_B | B     | 5733 | 5752 | 5771 | 5790 | 5809 | 5828 | 5847 | 5866 |
+| BAND_E | E     | 5705 | 5685 | 5665 | 5645 | 5885 | 5905 | 5925 | 5945 |
+| BAND_F | F     | 5740 | 5760 | 5780 | 5800 | 5820 | 5840 | 5860 | 5880 |
+| BAND_R | R     | 5658 | 5695 | 5732 | 5769 | 5806 | 5843 | 5880 | 5917 |
+| BAND_H | H     | 5653 | 5693 | 5733 | 5773 | 5813 | 5853 | 5893 | 5933 |
+| BAND_L | L     | 5333 | 5373 | 5413 | 5453 | 5493 | 5533 | 5573 | 5613 |
+| BAND_U | U     | 5325 | 5348 | 5366 | 5384 | 5402 | 5420 | 5438 | 5456 |
+
+## Foxeer Reaper Infinity VTX 5W 5.8GHz 40CH
+
+- Вариант: **5.8GHz / 40CH**
+- Диапазон: **5.8 GHz analog**
+- Статус: **сообщество**
+- Протокол/формат: **VTx Tables / irc-tramp**
+- Источник: [VTx Tables API](https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch)
+- Изображение/мануал сетки: [открыть источник](https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch)
+- Уровни мощности: 50, 500, 1W, 2.5, 5W
+- Примечание: Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX.
+
+| Сетка    | Буква |  CH1 |  CH2 |  CH3 |  CH4 |  CH5 |  CH6 |  CH7 |  CH8 |
+| -------- | ----- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| BOSCAM_A | A     | 5865 | 5845 | 5825 | 5805 | 5785 | 5765 | 5745 | 5725 |
+| BOSCAM_B | B     | 5733 | 5752 | 5771 | 5790 | 5809 | 5828 | 5847 | 5866 |
+| BOSCAM_E | E     | 5705 | 5685 | 5665 | 5645 | 5885 | 5905 | 5925 | 5945 |
+| FATSHARK | F     | 5740 | 5760 | 5780 | 5800 | 5820 | 5840 | 5860 | 5880 |
+| RACEBAND | R     | 5658 | 5695 | 5732 | 5769 | 5806 | 5843 | 5880 | 5917 |
 
 ## Reaper / Reaper Extreme 5.8G reference grid
 

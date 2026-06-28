@@ -29,16 +29,26 @@ class VtxFrequencyCatalogTests(unittest.TestCase):
             self.assertIn(manufacturer, manufacturers)
 
         manufacturer_counts = Counter(table["manufacturer"] for table in tables)
-        self.assertGreaterEqual(manufacturer_counts["Foxeer"], 5)
-        self.assertGreaterEqual(manufacturer_counts["RUSHFPV"], 15)
+        self.assertGreaterEqual(manufacturer_counts["AKK"], 19)
+        self.assertGreaterEqual(manufacturer_counts["Foxeer"], 8)
+        self.assertGreaterEqual(manufacturer_counts["RUSHFPV"], 39)
 
         table_ids = {table["id"] for table in tables}
         for table_id in {
             "flywoo-goku-hm600-global",
             "flywoo-goku-vtx625-v2-global",
+            "akk-alpha-49-58ghz-vtx-10w",
+            "akk-alpha-16w-96ch-range",
+            "akk-ultra-long-range-49-58",
+            "akk-tx8000ac-ultra-long-range-8w-49-58",
             "foxeer-reaper-extreme-3w-betaflight-64ch",
+            "foxeer-reaper-extreme-v2-vtxtables-58",
             "foxeer-reaper-infinity-v2-5w-80ch",
+            "foxeer-reaper-infinity-5w-58-40ch-vtxtables",
             "matek-vtx-hv-global",
+            "rush-drive-rush-tank-ultimate-ii-sa21-48ch",
+            "rush-drive-rush-race2-sa21-37ch",
+            "rush-drive-4g9-5g8-vtx",
             "rush-1213ghz-4w-vtx",
             "rush-1213ghz-vtx-1600mw",
             "rush-33ghz-2w-vtx",

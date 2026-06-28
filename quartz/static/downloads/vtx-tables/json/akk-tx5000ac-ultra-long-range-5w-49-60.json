@@ -1,0 +1,117 @@
+{
+  "id": "akk-tx5000ac-ultra-long-range-5w-49-60",
+  "manufacturer": "AKK",
+  "model": "TX5000AC AKK Ultra Long Range 5W",
+  "variant": "4.9-6.0GHz / 96CH",
+  "band_family": "4.9-6.0 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "VTx Tables / smart-audio",
+  "source_title": "VTx Tables API",
+  "source_url": "https://vtx-tables.vercel.app/tx5000ac-akk-ultra-long-range-5w",
+  "source_note": "slug=tx5000ac-akk-ultra-long-range-5w, version=4.9-6.0",
+  "source_image_url": "https://vtx-tables.vercel.app/tx5000ac-akk-ultra-long-range-5w",
+  "bands": [
+    {
+      "name": "BOSCAM_A",
+      "letter": "A",
+      "factory": true,
+      "frequencies": [5474, 5492, 5510, 5528, 5546, 5564, 5582, 5600]
+    },
+    {
+      "name": "BOSCAM_B",
+      "letter": "B",
+      "factory": true,
+      "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+    },
+    {
+      "name": "BOSCAM_E",
+      "letter": "E",
+      "factory": true,
+      "frequencies": [5325, 5348, 5366, 5384, 5402, 5420, 5438, 5456]
+    },
+    {
+      "name": "FATSHARK",
+      "letter": "F",
+      "factory": true,
+      "frequencies": [5129, 5159, 5189, 5219, 5249, 5279, 5309, 5339]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": true,
+      "frequencies": [4990, 5020, 5050, 5080, 5110, 5140, 5170, 5200]
+    },
+    {
+      "name": "CUSTOM_P",
+      "letter": "P",
+      "factory": true,
+      "frequencies": [5333, 5373, 5413, 5453, 5493, 5533, 5573, 5613]
+    },
+    {
+      "name": "CUSTOM_L",
+      "letter": "L",
+      "factory": true,
+      "frequencies": [4900, 4940, 4921, 4958, 4995, 5032, 5069, 5099]
+    },
+    {
+      "name": "CUSTOM_U",
+      "letter": "U",
+      "factory": true,
+      "frequencies": [5960, 5980, 6000, 6020, 6030, 6040, 6050, 6060]
+    },
+    {
+      "name": "CUSTOM_O",
+      "letter": "O",
+      "factory": true,
+      "frequencies": [5865, 5845, 5825, 5802, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "CUSTOM_H",
+      "letter": "H",
+      "factory": true,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "CUSTOM_T",
+      "letter": "T",
+      "factory": true,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "CUSTOM_n",
+      "letter": "n",
+      "factory": true,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 0,
+      "label": "25"
+    },
+    {
+      "value": 1,
+      "label": "250"
+    },
+    {
+      "value": 2,
+      "label": "500"
+    },
+    {
+      "value": 3,
+      "label": "1W"
+    },
+    {
+      "value": 4,
+      "label": "3W"
+    },
+    {
+      "value": 5,
+      "label": "5W"
+    }
+  ],
+  "notes": [
+    "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+  ]
+}

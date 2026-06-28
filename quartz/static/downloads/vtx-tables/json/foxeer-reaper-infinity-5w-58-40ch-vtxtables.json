@@ -1,0 +1,71 @@
+{
+  "id": "foxeer-reaper-infinity-5w-58-40ch-vtxtables",
+  "manufacturer": "Foxeer",
+  "model": "Foxeer Reaper Infinity VTX 5W 5.8GHz 40CH",
+  "variant": "5.8GHz / 40CH",
+  "band_family": "5.8 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "VTx Tables / irc-tramp",
+  "source_title": "VTx Tables API",
+  "source_url": "https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch",
+  "source_note": "slug=foxeer-reaper-infinity-vtx-5w-58ghz-40ch, version=5.8",
+  "source_image_url": "https://vtx-tables.vercel.app/foxeer-reaper-infinity-vtx-5w-58ghz-40ch",
+  "bands": [
+    {
+      "name": "BOSCAM_A",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [5865, 5845, 5825, 5805, 5785, 5765, 5745, 5725]
+    },
+    {
+      "name": "BOSCAM_B",
+      "letter": "B",
+      "factory": false,
+      "frequencies": [5733, 5752, 5771, 5790, 5809, 5828, 5847, 5866]
+    },
+    {
+      "name": "BOSCAM_E",
+      "letter": "E",
+      "factory": false,
+      "frequencies": [5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945]
+    },
+    {
+      "name": "FATSHARK",
+      "letter": "F",
+      "factory": false,
+      "frequencies": [5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880]
+    },
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": false,
+      "frequencies": [5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917]
+    }
+  ],
+  "powerlevels": [
+    {
+      "value": 25,
+      "label": "50"
+    },
+    {
+      "value": 100,
+      "label": "500"
+    },
+    {
+      "value": 200,
+      "label": "1W"
+    },
+    {
+      "value": 400,
+      "label": "2.5"
+    },
+    {
+      "value": 600,
+      "label": "5W"
+    }
+  ],
+  "notes": [
+    "Добавлено из публичного каталога VTx Tables; перед применением сверять с конкретной ревизией VTX."
+  ]
+}
