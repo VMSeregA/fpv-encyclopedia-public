@@ -1,0 +1,24 @@
+{
+  "id": "rushfpv-25w-vtx-dual-band",
+  "manufacturer": "RUSHFPV",
+  "model": "RUSHFPV 2.5W VTX Dual-Band",
+  "variant": "LowRace / 8CH",
+  "band_family": "5.3-5.6 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table",
+  "source_title": "VTx Tables RUSHFPV pages",
+  "source_url": "https://vtx-tables.vercel.app/rushfpv-25w-vtx-dual-band",
+  "source_image_url": "https://rushfpv.net/pages/download-center",
+  "bands": [
+    {
+      "name": "LOWRACE",
+      "letter": "L",
+      "factory": false,
+      "frequencies": [5362, 5399, 5436, 5473, 5510, 5547, 5584, 5621]
+    }
+  ],
+  "notes": [
+    "Добавлено по публичной CLI-таблице VTx Tables; если нужна полная dual-band раскладка, сверить по оригинальному мануалу конкретной ревизии."
+  ]
+}

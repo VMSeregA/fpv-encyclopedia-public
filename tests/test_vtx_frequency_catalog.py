@@ -30,6 +30,7 @@ class VtxFrequencyCatalogTests(unittest.TestCase):
 
         manufacturer_counts = Counter(table["manufacturer"] for table in tables)
         self.assertGreaterEqual(manufacturer_counts["Foxeer"], 5)
+        self.assertGreaterEqual(manufacturer_counts["RUSHFPV"], 15)
 
         table_ids = {table["id"] for table in tables}
         for table_id in {
@@ -38,6 +39,12 @@ class VtxFrequencyCatalogTests(unittest.TestCase):
             "foxeer-reaper-extreme-3w-betaflight-64ch",
             "foxeer-reaper-infinity-v2-5w-80ch",
             "matek-vtx-hv-global",
+            "rush-1213ghz-4w-vtx",
+            "rush-1213ghz-vtx-1600mw",
+            "rush-33ghz-2w-vtx",
+            "rush-33ghz-4w-vtx",
+            "rush-tank-solo-58g",
+            "rushfpv-25w-vtx-dual-band",
             "speedybee-tx800-usa",
         }:
             self.assertIn(table_id, table_ids)

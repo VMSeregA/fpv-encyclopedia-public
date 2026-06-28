@@ -18,7 +18,7 @@ source: нормализованный публичный каталог
 > [!warning] Проверка перед применением
 > Частоты и мощность передатчиков зависят от региона, прошивки и разблокировки устройства. Перед записью в контроллер сверяйте сетку с маркировкой конкретного VTX и требованиями вашего диапазона.
 
-В каталоге: **63** сеток и диапазонов. Скачать общий манифест: [manifest.json](/static/downloads/vtx-tables/manifest.json).
+В каталоге: **69** сеток и диапазонов. Скачать общий манифест: [manifest.json](/static/downloads/vtx-tables/manifest.json).
 
 ## Производители
 
@@ -36,7 +36,7 @@ source: нормализованный публичный каталог
 - [[Производители/ImmersionRC|ImmersionRC]] — 1
 - [[Производители/Matek|Matek]] — 2
 - [[Производители/RDQ|RDQ]] — 1
-- [[Производители/RUSHFPV|RUSHFPV]] — 9
+- [[Производители/RUSHFPV|RUSHFPV]] — 15
 - [[Производители/SpeedyBee|SpeedyBee]] — 2
 - [[Производители/T-Motor|T-Motor]] — 3
 - [[Производители/TBS|TBS]] — 5
@@ -86,6 +86,12 @@ source: нормализованный публичный каталог
 | Matek         | Matek FCHUB-VTX                             | 40CH                              | 5.8 GHz analog     | официальный источник      | [JSON](/static/downloads/vtx-tables/json/matek-fchub-vtx-global.json) / [CSV](/static/downloads/vtx-tables/csv/matek-fchub-vtx-global.csv) / [Изображение/мануал сетки](https://www.mateksys.com/?portfolio=fchub-vtx)                                                                           |
 | Matek         | Matek VTX-HV                                | 40CH                              | 5.8 GHz analog     | официальный источник      | [JSON](/static/downloads/vtx-tables/json/matek-vtx-hv-global.json) / [CSV](/static/downloads/vtx-tables/csv/matek-vtx-hv-global.csv) / [Изображение/мануал сетки](https://www.mateksys.com/?portfolio=vtx-hv)                                                                                    |
 | RDQ           | RDQ Mach3                                   | Global / Unlocked                 | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rdq-mach3-global.json) / [CSV](/static/downloads/vtx-tables/csv/rdq-mach3-global.csv)                                                                                                                                                                   |
+| RUSHFPV       | RUSH 1.2/1.3GHz 4W VTX                      | 1.2/1.3GHz Raceband / 8CH         | 1.2/1.3 GHz analog | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-1213ghz-4w-vtx.json) / [CSV](/static/downloads/vtx-tables/csv/rush-1213ghz-4w-vtx.csv) / [Изображение/мануал сетки](https://rushfpv.net/pages/download-center)                                                                                     |
+| RUSHFPV       | RUSH 1.2/1.3GHz VTX 1600mW                  | 1.2/1.3GHz Raceband / 8CH         | 1.2/1.3 GHz analog | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-1213ghz-vtx-1600mw.json) / [CSV](/static/downloads/vtx-tables/csv/rush-1213ghz-vtx-1600mw.csv) / [Изображение/мануал сетки](https://rushfpv.net/pages/download-center)                                                                             |
+| RUSHFPV       | RUSH 3.3GHz 2W VTX                          | 3.3GHz A band / 8CH               | 3.3 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-33ghz-2w-vtx.json) / [CSV](/static/downloads/vtx-tables/csv/rush-33ghz-2w-vtx.csv) / [Изображение/мануал сетки](https://rushfpv.net/pages/download-center)                                                                                         |
+| RUSHFPV       | RUSH 3.3GHz 4W VTX                          | 3.3GHz A band / 8CH               | 3.3 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-33ghz-4w-vtx.json) / [CSV](/static/downloads/vtx-tables/csv/rush-33ghz-4w-vtx.csv) / [Изображение/мануал сетки](https://rushfpv.net/pages/download-center)                                                                                         |
+| RUSHFPV       | RUSH Tank Solo 5.8G                         | Raceband / 8CH                    | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-tank-solo-58g.json) / [CSV](/static/downloads/vtx-tables/csv/rush-tank-solo-58g.csv) / [Изображение/мануал сетки](https://rushfpv.net/pages/download-center)                                                                                       |
+| RUSHFPV       | RUSHFPV 2.5W VTX Dual-Band                  | LowRace / 8CH                     | 5.3-5.6 GHz analog | сообщество                | [JSON](/static/downloads/vtx-tables/json/rushfpv-25w-vtx-dual-band.json) / [CSV](/static/downloads/vtx-tables/csv/rushfpv-25w-vtx-dual-band.csv) / [Изображение/мануал сетки](https://rushfpv.net/pages/download-center)                                                                         |
 | RUSHFPV       | RUSHFPV RUSH Max Solo                       | Global / Unlocked                 | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-max-solo-global.json) / [CSV](/static/downloads/vtx-tables/csv/rush-max-solo-global.csv)                                                                                                                                                           |
 | RUSHFPV       | RUSHFPV RUSH Tank Mini                      | Global / Unlocked                 | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-tank-mini-global.json) / [CSV](/static/downloads/vtx-tables/csv/rush-tank-mini-global.csv)                                                                                                                                                         |
 | RUSHFPV       | RUSHFPV RUSH Tank Race                      | Global / Unlocked                 | 5.8 GHz analog     | сообщество                | [JSON](/static/downloads/vtx-tables/json/rush-tank-race-global.json) / [CSV](/static/downloads/vtx-tables/csv/rush-tank-race-global.csv)                                                                                                                                                         |
@@ -117,6 +123,7 @@ source: нормализованный публичный каталог
 - [Jackjan4/betaflight-vtx-tables](https://github.com/Jackjan4/betaflight-vtx-tables) — публичные JSON-таблицы производителей для Betaflight
 - [Foxeer Reaper Extreme manual page](https://manuals.plus/foxeer/vtx-reaper-extreme-manual) — ориентир для Foxeer Reaper, требует сверки с конкретной ревизией
 - [RUSHFPV Download Center](https://rushfpv.net/pages/download-center) — страница производителя для файлов и широких диапазонов RUSHFPV
+- [VTx Tables RUSHFPV pages](https://vtx-tables.vercel.app/) — публичные CLI vtxtable страницы для RUSHFPV; сверять с конкретной ревизией перед прошивкой
 - [TBS Unify Pro 5G8 manual](https://www.team-blacksheep.com/media/files/tbs-unify-pro-5g8-manual.pdf) — мануал TBS Unify 5G8 для сверки сеток TBS
 - [SpeedyBee TX800 product page](https://www.speedybee.com/speedybee-tx800/) — официальная страница TX800 с таблицами USA/EU и ссылками на VTX table JSON
 - [Matek VTX-HV manual page](https://www.mateksys.com/?portfolio=vtx-hv) — официальная страница Matek с CLI vtxtable и уровнями мощности

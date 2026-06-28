@@ -1,0 +1,24 @@
+{
+  "id": "rush-33ghz-4w-vtx",
+  "manufacturer": "RUSHFPV",
+  "model": "RUSH 3.3GHz 4W VTX",
+  "variant": "3.3GHz A band / 8CH",
+  "band_family": "3.3 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table",
+  "source_title": "VTx Tables RUSHFPV pages",
+  "source_url": "https://vtx-tables.vercel.app/rush-33ghz-4w-vtx",
+  "source_image_url": "https://rushfpv.net/pages/download-center",
+  "bands": [
+    {
+      "name": "BAND_A",
+      "letter": "A",
+      "factory": false,
+      "frequencies": [3200, 3225, 3250, 3275, 3300, 3325, 3350, 3375]
+    }
+  ],
+  "notes": [
+    "Добавлено по публичной CLI-таблице VTx Tables; 4W версию обязательно сверять по охлаждению, питанию и региональным ограничениям."
+  ]
+}

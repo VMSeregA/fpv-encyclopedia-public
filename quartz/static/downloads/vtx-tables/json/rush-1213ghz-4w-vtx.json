@@ -1,0 +1,24 @@
+{
+  "id": "rush-1213ghz-4w-vtx",
+  "manufacturer": "RUSHFPV",
+  "model": "RUSH 1.2/1.3GHz 4W VTX",
+  "variant": "1.2/1.3GHz Raceband / 8CH",
+  "band_family": "1.2/1.3 GHz analog",
+  "kind": "vtx-table",
+  "status": "сообщество",
+  "protocol": "Betaflight VTX table",
+  "source_title": "VTx Tables RUSHFPV pages",
+  "source_url": "https://vtx-tables.vercel.app/rush-1213ghz-4w-vtx",
+  "source_image_url": "https://rushfpv.net/pages/download-center",
+  "bands": [
+    {
+      "name": "RACEBAND",
+      "letter": "R",
+      "factory": false,
+      "frequencies": [1080, 1120, 1160, 1200, 1258, 1280, 1320, 1360]
+    }
+  ],
+  "notes": [
+    "Добавлено по публичной CLI-таблице VTx Tables; 4W версию обязательно сверять по охлаждению, питанию и региональным ограничениям."
+  ]
+}
