@@ -57,6 +57,21 @@ def table_escape(value: str) -> str:
     return value.replace("|", "\\|")
 
 
+def markdown_escape(value: str) -> str:
+    escaped = value.replace("\\", "\\\\")
+    for char in ["[", "]", "*", "_", "`", "|"]:
+        escaped = escaped.replace(char, f"\\{char}")
+    return escaped
+
+
+def local_file_uri(path: Path) -> str:
+    return "file://" + str(path.resolve())
+
+
+def file_link(path: Path) -> str:
+    return f"[{markdown_escape(path.name)}](<{local_file_uri(path)}>)"
+
+
 def write_page(path: Path, lines: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
@@ -88,6 +103,7 @@ def build_catalog(source: Path, content_dir: Path) -> None:
             "",
             "> [!warning] Публичная граница",
             "> Это индекс сырого архива `!FPV`, а не публикация всех исходных файлов. PDF, видео, прошивки, STL и архивы остаются в локальном хранилище, пока конкретный материал не отобран и не проверен для публичной энциклопедии.",
+            "> Локальные ссылки `file://` открываются на этом Mac и в Obsidian. На публичном сайте браузер может блокировать такие ссылки из-за правил безопасности.",
             "",
             f"Файлов в исходной папке: **{len(files)}**.",
             f"Папок в исходной папке: **{len(dirs) + 1}**.",
@@ -112,13 +128,16 @@ def build_catalog(source: Path, content_dir: Path) -> None:
             "",
             "## Полный список файлов",
             "",
-            "| Путь в `!FPV` | Тип | Размер |",
-            "| --- | --- | ---: |",
+            "| Файл | Путь в `!FPV` | Тип | Размер |",
+            "| --- | --- | --- | ---: |",
         ]
     )
     for path in files:
         rel = path.relative_to(source)
-        index_lines.append(f"| `{table_escape(str(rel))}` | `{file_kind(path)}` | {human_size(path.stat().st_size)} |")
+        parent = str(rel.parent) if str(rel.parent) != "." else "корень"
+        index_lines.append(
+            f"| {file_link(path)} | `{table_escape(parent)}` | `{file_kind(path)}` | {human_size(path.stat().st_size)} |"
+        )
 
     write_page(content_dir / f"{ARCHIVE_NAME}.md", index_lines)
 
@@ -142,13 +161,14 @@ def build_catalog(source: Path, content_dir: Path) -> None:
                 "",
                 "## Файлы",
                 "",
-                "| Путь внутри раздела | Тип | Размер |",
-                "| --- | --- | ---: |",
+                "| Файл | Путь внутри раздела | Тип | Размер |",
+                "| --- | --- | --- | ---: |",
             ]
         )
         for path in paths:
             rel = path.relative_to(source / top)
-            lines.append(f"| `{table_escape(str(rel))}` | `{file_kind(path)}` | {human_size(path.stat().st_size)} |")
+            parent = str(rel.parent) if str(rel.parent) != "." else "корень"
+            lines.append(f"| {file_link(path)} | `{table_escape(parent)}` | `{file_kind(path)}` | {human_size(path.stat().st_size)} |")
         write_page(content_dir / f"{title}.md", lines)
 
 

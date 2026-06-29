@@ -42,6 +42,8 @@ class MaimunArchiveCatalogTests(unittest.TestCase):
             self.assertIn("3D", text)
             self.assertIn("НСУ", text)
             self.assertIn("сырого архива", text)
+            self.assertIn("file:///Users/sergejsavcuk/Desktop/I.P.D/!FPV/", text)
+            self.assertIn("[EXCERA-8100\\_ТФ.stl](<file:///Users/sergejsavcuk/Desktop/I.P.D/!FPV/", text)
 
             generated_files = {path.suffix.lower() for path in out_dir.rglob("*") if path.is_file()}
             self.assertEqual({".md"}, generated_files)
