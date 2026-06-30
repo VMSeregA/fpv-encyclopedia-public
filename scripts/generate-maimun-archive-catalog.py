@@ -5,14 +5,14 @@ import argparse
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import quote
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = Path("/Users/sergejsavcuk/Desktop/I.P.D/!FPV")
 DEFAULT_CONTENT_DIR = ROOT / "content" / "13_База_данных_Маймуна"
 ARCHIVE_NAME = "База данных Маймуна"
-VAULT_NAME = "I.P.D"
+DOWNLOAD_BASE_URL = "https://app.gorizontvverh.ru/downloads/Maimun"
 
 
 def human_size(size: int) -> str:
@@ -66,14 +66,14 @@ def markdown_escape(value: str) -> str:
     return escaped
 
 
-def obsidian_uri(path: Path, source: Path) -> str:
-    vault_file = Path(source.name) / path.relative_to(source)
-    query = urlencode({"vault": VAULT_NAME, "file": str(vault_file)})
-    return f"obsidian://open?{query}"
+def download_url(path: Path, source: Path) -> str:
+    relative = path.relative_to(source)
+    encoded_path = "/".join(quote(part) for part in relative.parts)
+    return f"{DOWNLOAD_BASE_URL}/{encoded_path}"
 
 
 def file_link(path: Path, source: Path) -> str:
-    return f"[{markdown_escape(path.name)}](<{obsidian_uri(path, source)}>)"
+    return f"[{markdown_escape(path.name)}](<{download_url(path, source)}>)"
 
 
 def write_page(path: Path, lines: list[str]) -> None:
@@ -107,7 +107,7 @@ def build_catalog(source: Path, content_dir: Path) -> None:
             "",
             "> [!warning] Публичная граница",
             "> Это индекс сырого архива `!FPV`, а не публикация всех исходных файлов. PDF, видео, прошивки, STL и архивы остаются в локальном хранилище, пока конкретный материал не отобран и не проверен для публичной энциклопедии.",
-            "> Клик по имени файла открывает локальный материал через Obsidian URI. Это работает только на Mac, где открыт vault `I.P.D` и существует папка `!FPV`.",
+            "> Файлы загружены на сервер Timeweb. Клик по имени файла открывает прямую HTTPS-ссылку на скачивание.",
             "",
             f"Файлов в исходной папке: **{len(files)}**.",
             f"Папок в исходной папке: **{len(dirs) + 1}**.",

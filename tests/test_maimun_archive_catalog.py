@@ -42,8 +42,13 @@ class MaimunArchiveCatalogTests(unittest.TestCase):
             self.assertIn("3D", text)
             self.assertIn("НСУ", text)
             self.assertIn("сырого архива", text)
-            self.assertIn("obsidian://open?vault=I.P.D&file=%21FPV%2F", text)
-            self.assertIn("[EXCERA-8100\\_ТФ.stl](<obsidian://open?vault=I.P.D&file=%21FPV%2F3D%2F", text)
+            self.assertIn("https://app.gorizontvverh.ru/downloads/Maimun/", text)
+            self.assertIn(
+                "[EXCERA-8100\\_ТФ.stl](<https://app.gorizontvverh.ru/downloads/Maimun/3D/",
+                text,
+            )
+            self.assertIn("%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D1%86%D0%B8", text)
+            self.assertNotIn("obsidian://", text)
             self.assertNotIn("](<file://", text)
 
             generated_files = {path.suffix.lower() for path in out_dir.rglob("*") if path.is_file()}
