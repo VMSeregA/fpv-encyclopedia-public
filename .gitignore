@@ -12,3 +12,5 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+__pycache__/
+*.pyc
