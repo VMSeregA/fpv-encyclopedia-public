@@ -32,6 +32,7 @@ source: локальный каркас Obsidian
 - [[06_Прошивки_и_настройки/Прошивки ELRS/Grey/Grey|Grey]]
 - [[06_Прошивки_и_настройки/Прошивки ELRS/Orange 5 Beta 4/Orange 5 Beta 4|Orange 5 Beta 4]]
 - [[06_Прошивки_и_настройки/Прошивки ELRS/RED4.1+/RED4.1+|RED4.1+]]
+- [[06_Прошивки_и_настройки/Прошивки ELRS/RED5/RED5|RED5]]
 - [[06_Прошивки_и_настройки/Прошивки ELRS/TLRSX2/TLRSX2|TLRSX2]]
 - [[06_Прошивки_и_настройки/Прошивки ELRS/ZLRS 3.372 all targets/ZLRS 3.372 all targets|ZLRS 3.372 all targets]]
 - [[06_Прошивки_и_настройки/Прошивки ELRS/ZLRS333/ZLRS333|ZLRS333]]
