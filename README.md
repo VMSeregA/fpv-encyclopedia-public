@@ -35,6 +35,20 @@ npx quartz build --serve
 
 Локальный сайт после `--serve` обычно открывается на `http://localhost:8080`.
 
+## Тесты и проверки
+
+Каталоги (Maimun-архив, частотные таблицы VTX) покрыты Python-тестами:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
+Проверка типов и форматирования:
+
+```bash
+npm run check
+```
+
 ## Публикация на GitHub Pages
 
 1. Создать пустой публичный GitHub-репозиторий `VMSeregA/fpv-encyclopedia-public`.
